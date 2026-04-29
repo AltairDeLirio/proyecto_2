@@ -497,6 +497,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518988607}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &577288658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2110037227414459300, guid: 45271361664429c4499cc00466e30a72, type: 3}
+  m_PrefabInstance: {fileID: 5877680050458861447}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &901024920
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +941,10 @@ MonoBehaviour:
   velocity: 5
   vel_rotation: 4
   objective: {fileID: 0}
+  player: {fileID: 577288658}
+  guardianEyes: {fileID: 2058092538}
+  visionAngle: 35
+  visionDistance: 9
 --- !u!65 &1689602996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1026,7 +1035,8 @@ Transform:
   m_LocalPosition: {x: 0.76734, y: 1.68, z: -9.24}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2058092538}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1689603000
@@ -1364,6 +1374,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2058092537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2058092538}
+  m_Layer: 0
+  m_Name: GuardianEyes
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2058092538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058092537}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4895237, y: -0.51681995, z: 0.5012323, w: 0.49196532}
+  m_LocalPosition: {x: 0.03, y: 0.028, z: 0.547}
+  m_LocalScale: {x: 1, y: 0.33333334, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1689602999}
+  m_LocalEulerAnglesHint: {x: 88.722, y: -127.145, z: -35.05}
 --- !u!1 &2083720326
 GameObject:
   m_ObjectHideFlags: 0
