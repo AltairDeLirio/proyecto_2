@@ -5,17 +5,10 @@ public class PlayerInteraction : MonoBehaviour
 {
     public float interactDistance = 2f;
 
-    void Update()
+    public void OnInteract(InputAction.CallbackContext context)
     {
-        //mirar si el jugador presiona la tecla de interacción (E)
-        if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            TryInteract();
-        }
-    }
+        if (!context.performed) return;
 
-    void TryInteract()
-    {
         Ray ray = new Ray(transform.position, transform.forward);
 
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance))
