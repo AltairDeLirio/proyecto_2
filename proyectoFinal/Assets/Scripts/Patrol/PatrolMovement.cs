@@ -19,9 +19,9 @@ public class PatrolMovement : MonoBehaviour
     Transform guardianEyes;
 
     [SerializeField]
-    float visionAngle = 30f;
+    float visionAngle;
     [SerializeField]
-    float visionDistance = 10f;
+    float visionDistance;
 
     bool detected = false;
 
@@ -79,6 +79,6 @@ public class PatrolMovement : MonoBehaviour
 
     Vector3 PointForAngle (float angle, float distance)
     {
-        return guardianEyes.TransformDirection(new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)) * distance);
+        return guardianEyes.TransformDirection(new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)) * distance);
     }
 }
