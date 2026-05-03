@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public float interactDistance = 2f;
+    public float distance = 2f;
 
     public void OnInteract(InputAction.CallbackContext context)
     {
@@ -11,14 +11,32 @@ public class PlayerInteraction : MonoBehaviour
 
         Ray ray = new Ray(transform.position, transform.forward);
 
-        if (Physics.Raycast(ray, out RaycastHit hit, interactDistance))
+        if (Physics.Raycast(ray, out RaycastHit hit, distance))
         {
-            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+            Debug.Log("HIT OBJECT: " + hit.collider.name);
+            Debug.Log("HIT ROOT: " + hit.collider.transform.root.name);
 
-            if (interactable != null)
+            var npc = hit.collider.GetComponentInParent<NPCDialogue>();
+            if (npc != null)
             {
-                interactable.Interact();
+                Debug.Log("NPC FOUND");
+                npc.StartDialogue();
+                return;
             }
+
+            var pickup = hit.collider.GetComponentInParent<PickupItem>();
+            if (pickup != null)
+            {
+                Debug.Log("PICKUP FOUND");
+                pickup.Interact();
+                return;
+            }
+
+            Debug.Log("NO INTERACTABLE FOUND");
+        }
+        else
+        {
+            Debug.Log("RAY HIT NOTHING");
         }
     }
 }

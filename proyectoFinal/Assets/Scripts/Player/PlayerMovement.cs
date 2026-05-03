@@ -1,26 +1,54 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Yarn.Unity;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float speed = 5f;
+    public float gravity = -9.81f;
+    public float groundStickForce = -2f;
 
     private CharacterController controller;
     private Vector2 moveInput;
+    private float verticalVelocity;
+
+    private DialogueRunner runner;
 
     void Awake()
     {
         controller = GetComponent<CharacterController>();
     }
 
-    void Update()
+    void Start()
     {
-        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
-
-        controller.Move(move * moveSpeed * Time.deltaTime);
+        runner = FindFirstObjectByType<DialogueRunner>();
     }
 
-    //lo llama playerInput 
+    void Update()
+    {
+        // block movement during dialogue
+        if (runner != null && runner.IsDialogueRunning)
+            return;
+
+        // grounded check
+        if (controller.isGrounded && verticalVelocity < 0)
+        {
+            verticalVelocity = groundStickForce;
+        }
+
+        // apply gravity
+        verticalVelocity += gravity * Time.deltaTime;
+
+        // movement input
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+
+        // combine horizontal + vertical movement
+        Vector3 velocity = move * speed;
+        velocity.y = verticalVelocity;
+
+        controller.Move(velocity * Time.deltaTime);
+    }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
