@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6190150059061416687}
   - component: {fileID: 6849414948023092375}
   - component: {fileID: 7747073823391644269}
+  - component: {fileID: 5635503398422180439}
   m_Layer: 0
   m_Name: Player_test
   m_TagString: Player
@@ -141,3 +142,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4116fba10c0b7fc489090da5d1abfb83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawn
+--- !u!143 &5635503398422180439
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2771166374963395080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
