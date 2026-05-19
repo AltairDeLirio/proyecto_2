@@ -7,7 +7,9 @@
     "**/*~/*",
     "./Samples/Yarn Spinner*/*"
   ],
-  "localisation": {},
+  "localisation": {
+    "en": {}
+  },
   "baseLanguage": "es",
   "compilerOptions": {},
   "definitionsFiles": []

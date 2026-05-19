@@ -15,5 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/PlantaUno.unity
     guid: 2f6e5ecacf1918143ae5d2fa196f6230
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: bd9a4f53417c31444b9a020133246f1b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 1f2fbd4dd341534408dcce26990716cb, type: 2}
   m_UseUCBPForAssetBundles: 0

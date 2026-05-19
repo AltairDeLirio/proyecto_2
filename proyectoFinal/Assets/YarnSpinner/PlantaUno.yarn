@@ -1,12 +1,233 @@
-﻿title: PlantaUno
+﻿title: NPC1
 ---
 
-prubea
+<<if $quest == true>>
+	<<once>>
 
--> pregunta 1
-    respuesta 1
+	->Pyotr: Hola niña #line:02084b0 
+		<<jump NPC1_neg>>
 
--> pregunta 2
-    respuesta 2
+	->Pyotr: Disculpa, ¿te puedo hacer una pregunta? #line:0c4eef1 
+		<<jump NPC1_pos>>
+	
+	
+	<<endonce>>
+<<else>> 
+
+???: ... #line:055f727 
+
+<<endif>>
 
 ===
+
+title: NPC1_neg
+---
+
+???: ¿A quién llamas niña? Tengo 32 años #line:039eafb 
+
+Se nota enfadada. #line:0ac03b3 
+
+Pyotr pone la mano en la nuca. #line:0058c3c 
+
+Pyotr: Ah... lo siento mucho #line:0befa77 
+
+???: Se que mi estatura no ayuda, pero no por eso me tienes que hacer prejuicios. #line:0c85f38 
+
+Pyotr: ... #line:0cd061f 
+
+???: Es como si yo te digo, oye momia #line:06abb98 
+
+-> Pyotr: Lo he entendido. Lo siento de verdad. #line:0d3e725 
+	<<jump NPC1_pos1>>
+-> Pyotr: Creo que ya te estas pasando #line:09e1875 
+	<<jump NPC1_neg1>>
+-> Mejor no decir nada... #line:03c3c1a 
+	<<jump NPC1_neu>>
+
+<<end>>
+
+===
+
+title: NPC1_pos
+---
+
+???: Si claro dime #line:04eb021 
+
+Pyotr: Estoy buscando unas cosas para una amiga, ¿me podrías ayudar? #line:0e253ad 
+
+???: ¿Qué es lo que estas buscando concretamene? #line:0805f32 
+
+Pyotr: Varias cosas la verdad. #line:0923582 
+
+???: Bueno dime alguna a ver si te puedo ayudar #line:031d778 
+
+Pyotr: ¿Sabes por donde puedo encontrar unos tablones de madera? #line:0b60426 
+
+???: Mmmm. Creo que por la taberna hay algo tirado en el suelo. #line:059af21 
+
+Pyotr: Perfecto. ¿Y por donde se va a la taberna? #line:0593368 
+
+???: Al final de la calle lo podrás encontrar #line:0a2f524 
+
+Pyotr: Muchas gracias señorita.  #line:04f2cbd 
+<<end>>
+
+===
+
+title: NPC1_pos1
+---
+
+???: Es que me sienta muy mal cuando me tratan de niña. Lo siento si he sido un poco intensa. #line:0e383b7 
+
+Pyotr:Lo entiendo, me pasaba lo mismo a tu edad. Yo siempre he sido bajito y entiendo tu enfado #line:0b50cf1 
+
+???: La verdad que si que eres bajito, no me había fijado #line:0d6c535 
+
+Pyotr: Ahora que hemos solucionado este primer contacto, ¿me podrías ayudar a encontrar una cosa? #line:0b20f77 
+
+???: Por supuesto, ¿que buscas? #line:01422b5 
+
+Pyotr: Busco algunos tablones de madera #line:0de5444 
+
+Se rasca la barbilla mientras piensa. #line:0e71202 
+
+???: Si sigues por esta calle para arriba, puede que encuentres algo, al lado de la taberna #line:08f9100 
+
+Pyotr: Perfecto, muchas gracias. Y disculpa por lo del principio. #line:03d5368 
+
+???: No pasa nada, que tengas buen día señor. #line:0e65871 
+
+<<end>>
+
+===
+
+title: NPC1_neg1
+---
+
+Alza la voz, medio gritando. #line:07df553 
+
+???: ¡No me estoy pasando, estoy cansada de que me confundan con una niña! #line:02d6d2e 
+
+Pyotr: Ya te he dicho que lo siento, no hace falta seguir con esto. #line:0408ec0 
+
+???: Si hace falta, no va a venir un viejo como tu a llamarme niña. #line:01cfb9b 
+
+Ahora Pyotr tambien esta empezando a molestarse. #line:0d72e4f 
+
+Pyotr: Te estas empezando a pasar ya. #line:08ec13b 
+
+???: Mira, vete. No quiero verte. #line:0658dbd 
+
+Pyotr: Pero necesito tu ayuda para encontrar algo. #line:0b3dd75 
+
+???: ¡QUE TE VAYAS! O aviso a los guardias. #line:0341b63 
+
+Pyotr: Vale, vale, ya me voy. #line:00e487a 
+
+<<end>>
+
+===
+
+title: NPC1_neu
+---
+
+Se ríe, burlandose. #line:0204ab3 
+
+???: ¿Que ha pasado?¿Se te ha comido la lengua el gato? #line:081caf8 
+
+Pyotr: Mire, soy una persona mayor, estoy cansado y no estoy para pelearme con alguien. #line:05c2bdc 
+
+???: No me trate de usted, que aun soy joven. #line:06e02bd 
+
+Pyotr: Lo siento si te he ofendido no era mi intención. Solo quiero ayudar a una amiga. #line:08b5a36 
+
+???: ¿Y quién es esa amiga? #line:0bbcf9e 
+
+Pyotr: Se llama Lilia, estoy en su taller y le estoy ayudando a encontrar unos materiales. #line:0cb8b96 
+
+???: Conozco a Lilia, he oido que es una genio. Aunque por lo que he oido se me hace raro que quiera ayuda de alguien. #line:03c26a2 
+
+Pyotr: Lo hago sin que lo sepa. #line:00dee84 
+
+???: Eso es bondadoso de tu parte. ¿Y qué estás buscando? #line:0f6d467 
+
+Pyotr: Busco algunos tablones de madera. #line:08276da 
+
+???: Si sigues por esta calle para arriba, puede que encuentres algo, al lado de la taberna. #line:04606f5 
+
+Pyotr: Gracias por la ayuda. #line:02c1c1f 
+
+???: No hay de que. #line:00f8530 
+
+<<end>>
+===
+
+title: NPC2
+---
+
+<<if $quest == true>>
+	<<once>>
+	->Pyotr: Disculpa pero, ¿acaso se pueden llevar armas en esta ciudad? #line:0a6ad05 
+		<<jump NPC2_neg>>
+	-> Pyotr: Bonita espada amigo #line:084de0a 
+		<<jump NPC2_pos>>
+	
+	<<endonce>>
+
+<<else>>
+
+???: ... #line:0d53e7d 
+
+<<endif>>
+===
+
+title: NPC2_neg
+---
+
+???: ¿Perdona? #line:0537cc5 
+
+Pyotr: Simplemente pregunto si es legal esa arma. #line:0aad7c1 
+
+???: ¿A ti que te importa? #line:0ea0af3 
+
+???: Además, ¿quién eres tú? #line:0e5f41d 
+
+-> Pyotr: Y a ti que te importa quien soy #line:0db2a98 
+	<<jump NPC2_neg1>>
+-> Pyotr: Yo soy Pyotr #line:09693bc 
+	<<jump NPC2_pos1>>
+
+<<end>>
+===
+
+title: NPC2_pos
+---
+
+???: Gracias, es una herencia familiar. #line:0b7c003 
+
+Pyotr: Pues es muy bonita, ¿la puedo ver? #line:0be46c7 
+
+???: Lo siento no se la dejo a nadie. #line:02142f3 
+
+Pyotr: Tranquilo lo entiendo. #line:0a1c4ec 
+
+???: ¿Deseas algo? #line:0636396 
+
+Pyotr: Pues ahora que lo dices si. #line:0bb0733 
+
+Pyotr: Estoy buscando unos engranajes. #line:0a3163d 
+
+???: Por aquí cerca hay una tienda donde puedes comprarlos. #line:0507668 
+
+Pyotr: La putada es que entre que no tengo dinero y no soy de aquí no voy a poder comprarla. #line:0a5d1ab 
+
+???: Cierto...  #line:0251805 
+
+???: Mira Pyotr, si giras a la izquierda y vas al final hay como un vertedero algo encontrarás. #line:094aca9 
+
+Pyotr: Muchas gracias, amigo, cuídate. #line:02ee20a 
+
+<<end>>
+===
+
+//falta NPC2_neg1, NPC2_pos1
