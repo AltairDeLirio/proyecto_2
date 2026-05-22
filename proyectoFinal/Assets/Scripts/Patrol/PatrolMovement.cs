@@ -37,19 +37,19 @@ void Update()
         // deteccion
         Vector3 playerVector = player.position - guardianEyes.position;
 
-        // Comprobamos si en ESTE preciso instante estás dentro del cono de visión
+        // se comprueba si en este momento el jugador esta dentro del cono de visión
         if ((Vector3.Angle(playerVector.normalized, guardianEyes.right) < visionAngle * 0.5f) && (playerVector.magnitude < visionDistance)) 
         {
-            detected = true; // Te está viendo: Activa el modo persecución
+            detected = true; 
         }
         else
         {
-            detected = false; // ¡Te ha perdido de vista! Vuelve a la normalidad
+            detected = false; 
         }
 
         // patrullar o perseguir al personaje
         Transform objetivoActual = objective;
-        float velocidadActual = velocity; // Por defecto, velocidad de patrulla lenta
+        float velocidadActual = velocity; 
 
         if (detected)
         {
