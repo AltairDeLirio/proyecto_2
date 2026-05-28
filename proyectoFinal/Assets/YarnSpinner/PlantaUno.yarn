@@ -230,4 +230,235 @@ Pyotr: Muchas gracias, amigo, cuídate. #line:02ee20a
 <<end>>
 ===
 
-//falta NPC2_neg1, NPC2_pos1
+title: NPC2_neg1
+---
+
+???: Si quieres que estemos bien respondeme. #line:064e338 
+
+Lentamente, empieza a desenfundar su espada. #line:07fa35e 
+
+Pyotr: Solo digo que no pareces un guardia ni nada. #line:0e2745c 
+
+???: Porque tendría que parecer un guardia. #line:0fb91ac 
+
+Con cada palabra que dice, desenfunde más su espada. #line:074c0d0 
+
+???: ¿Ocultas algo? #line:0e1c2f7 
+
+Más. #line:03ea55e 
+
+Pyotr mira brevemente a la espada, aclarandose la garganta. #line:07f0977 
+
+Pyotr: No, no yo no oculto nada. #line:086577e 
+
+Pyotr: Solo digo que es raro que no seas guardia y tengas una espada contigo. #line:0eaf907 
+
+Parece que eso lo calma, enfundando su espada. #line:0b19519 
+
+???: Bueno, viendolo así tienes razón. #line:06513b2 
+
+Desenfunde la espada. #line:0571dd8 
+
+???: Pero aún así no me has respondido. #line:048d6c0 
+
+???: Respondeme o te parto en dos como un palo de bambú. #line:046d0c0 
+
+Pyotr: Mejor me voy estás muy mal de la cabeza #line:085ac9f 
+
+<<end>>
+
+===
+
+title: NPC2_pos1
+---
+
+???: ¿No eres de por aquí verdad? #line:0bf75b3 
+
+Pyotr: La verdad que no, soy de la planta de abajo #line:0dd4ba3 
+
+???: ¿Y que haces por aquí? #line:02ef6c0 
+
+-> Pyotr: ¿Estas haciendo muchas preguntas no? #line:0869eeb 
+	<<jump NPC2_neg2>>
+-> Pyotr: Estoy ayudando a una amiga buscando unos elementos y necesito ayuda #line:01fa0a2 
+	<<jump NPC2_pos2>>
+
+<<end>>
+
+===
+
+title: NPC2_neg2
+---
+
+Desenfunde media espada. #line:0937fb1 
+
+???: Si quieres que estemos bien respondeme. #line:08c48f8 
+
+Pyotr: Yo no quiero problemas amigo solo... #line:019a22c 
+
+Antes de poder terminar, le interrumpe. #line:0234d55 
+
+???: Mejor desaparece de mi vista. #line:034117b 
+
+Pyotr: Por favor necesito ayuda #line:0420d39 
+
+Desenfunde completamente su espada. #line:07f5c89 
+
+???: Vete. #line:08a2d47 
+
+Pyotr: Vale, tranquilo #line:04ef851 
+
+<<end>>
+
+===
+
+title: NPC2_pos2
+---
+
+Le ofrece la mano a Pyotr. #line:068b330 
+
+???: De acuerdo, tienes mi confianza. #line:04ac1d0 
+
+Pyotr sonríe y le da la mano. #line:0a49c85 
+
+Pyotr: Gracias amigo #line:027877e 
+
+???:: Dime Pyotr, ¿qué necesitas? #line:03081c0 
+
+Pyotr: Estoy buscando unos engranajes #line:01ca0bc 
+
+???: Por aquí cerca hay una tienda donde puedes comprarlos #line:05989a6 
+
+Pyotr: La putada es que entre que no tengo dinero y no soy de aquí no voy a poder comprarla. #line:05dc33f 
+
+???: Cierto... Mira Pyotr, si giras a la izquierda y vas al final hay como un vertedero algo encontrarás #line:0d8039b 
+
+Pyotr: Muchas gracias, amigo, cuídate. #line:0d5dcdc 
+
+<<end>>
+
+===
+
+title: NPC3
+---
+
+<<if $quest == true>>
+	<<once>>
+	->Pyotr: Disculpa, ¿eres un cura o un vampiro? #line:016a4b8 
+		<<jump NPC3_neg>>
+	->Pyotr: Perdona, ¿eres cura? #line:0eb8607 
+		<<jump NPC3_pos>>
+	
+	<<endonce>>
+<<else>>
+???: ... #line:0b81401 
+
+<<endif>>
+
+===
+
+title: NPC3_neg
+---
+
+Frunce las cejas. #line:020e24c 
+
+???: ¿Nadie te enseñó modales? #line:002de3f 
+
+Pyotr: Solo es una duda no te ofendas hombre. #line:0577ec7 
+
+???: ¿Cómo no quieres que me ofenda? #line:06eea6c 
+
+???: Me acabas de preguntar si soy un vampiro. #line:012aed4 
+
+Pyotr levanta los hombros. #line:0364a9f 
+
+Pyotr: En realidad te pregunté si eres cura o vampiro. #line:017794b 
+
+Pyotr: Perooo... ¿lo sabes no? #line:0533d02 
+
+???: ¿Saber que? #line:064e009 
+
+Pyotr: Si eres un vampiro o no #line:0946ecd 
+
+Se rasca las orejas. #line:02a516d 
+
+???: Lo que hay que aguantar. #line:05dd099 
+
+???: Solo eres un viejo chocho #line:0d16386 
+
+Pyotr: Eh, tampoco hace falta que faltes el respeto a la tercera edad #line:0f35a66 
+
+Pyotr: Seria muy feo si un cura me llamase viejo chocho #line:0c8d230 
+
+???: ¿Sabes? Adios, no tengo tiempo para tonterías. #line:0d84457 
+
+<<end>>
+
+===
+
+title: NPC3_pos
+---
+
+???: La verdad que no, pero soy bastante creyente. #line:040af55 
+
+Pyotr agacha la cabeza. #line:09fb5be 
+
+Pyotr: Ah vale... #line:0bf48d4 
+
+???: ¿Necesitas algo? #line:0f4dc30 
+
+Pyotr: La verdad que... #line:0375f2c 
+
+-> Pyotr: (con los ojos llorosos) Ultimamente estoy dejando de tener fe en los dioses #line:08245d6 
+	<<jump NPC3_pos1>>
+-> Pyotr: Necesito saber donde puedo encontrar muelles ¿Sabes donde encontrar? #line:066d349 
+	<<jump NPC3_neu>>
+<<end>>
+
+===
+
+title: NPC3_pos1
+---
+
+???: Eso le puede pasar a todas las personas. #line:0c0772c 
+
+???: ¿Puedo saber porqué? #line:02f9659 
+
+Pyotr: Mi mujer está enferma y no va a mejor. #line:0185500 
+
+Pyotr: Es una persona buena y nunca le ha hecho daño a nadie, porque le tiene que pasar esto a ella #line:02a3004 
+
+???: Entiendo tu frustación amigo, pero no por eso tienes que perder la fe. #line:02c22f8 
+
+???: Los dioses son misericordiosos, seguro que tiene un plan para ella. #line:061b274 
+
+Pyotr: Eso espero... #line:0054807 
+
+Pyotr: Sigo teniendo mis dudas... pero gracias por la charla #line:05919e3 
+
+???: No hay de que #line:06ffa32 
+
+???: ¿Necesitas algo más? #line:0341a9a 
+
+Pyotr: Pues estoy buscando unos muelles, ¿sabes donde encontrar? #line:0db6baf 
+
+???: Si, bajando la calle, cerca de la muralla creo que hay restos donde puede haber #line:06b66ac 
+
+Pyotr: De acuerdo gracias. #line:016c3ed 
+
+???: No hay de que, y recuerda, ten fe. #line:0cbce8e 
+
+<<end>>
+
+===
+
+title: NPC3_neu
+---
+
+???: Si, bajando la calle, cerca de la muralla creo que hay restos donde puede haber #line:0c5270e 
+
+Pyotr: De acuerdo gracias. #line:02f5e64 
+
+<<end>>
+
+===

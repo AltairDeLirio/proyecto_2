@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 145530634240
-    m_Localized: Salir
+    m_Localized: "Ingl\xE9s"
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721923
@@ -355,6 +355,358 @@ MonoBehaviour:
   - m_Id: 12624985931776
     m_Localized: "Pyotr: Disculpa pero, \xBFacaso se pueden llevar armas en esta
       ciudad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463013
+    m_Localized: 'Pyotr: De acuerdo gracias.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463012
+    m_Localized: '???: Si, bajando la calle, cerca de la muralla creo que hay restos
+      donde puede haber'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463011
+    m_Localized: '???: No hay de que, y recuerda, ten fe.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463010
+    m_Localized: 'Pyotr: De acuerdo gracias.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463009
+    m_Localized: '???: Si, bajando la calle, cerca de la muralla creo que hay restos
+      donde puede haber'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463008
+    m_Localized: "Pyotr: Pues estoy buscando unos muelles, \xBFsabes donde encontrar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463007
+    m_Localized: "???: \xBFNecesitas algo m\xE1s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463006
+    m_Localized: '???: No hay de que'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463005
+    m_Localized: 'Pyotr: Sigo teniendo mis dudas... pero gracias por la charla'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463004
+    m_Localized: 'Pyotr: Eso espero...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463003
+    m_Localized: '???: Los dioses son misericordiosos, seguro que tiene un plan para
+      ella.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463002
+    m_Localized: "???: Entiendo tu frustaci\xF3n amigo, pero no por eso tienes que
+      perder la fe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463001
+    m_Localized: "Pyotr: Es una persona buena y nunca le ha hecho da\xF1o a nadie,
+      porque le tiene que pasar esto a ella"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463000
+    m_Localized: "Pyotr: Mi mujer est\xE1 enferma y no va a mejor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462999
+    m_Localized: "???: \xBFPuedo saber porqu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462998
+    m_Localized: '???: Eso le puede pasar a todas las personas.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462997
+    m_Localized: "Pyotr: Necesito saber donde puedo encontrar muelles \xBFSabes donde
+      encontrar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462996
+    m_Localized: 'Pyotr: (con los ojos llorosos) Ultimamente estoy dejando de tener
+      fe en los dioses'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462995
+    m_Localized: 'Pyotr: La verdad que...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462994
+    m_Localized: "???: \xBFNecesitas algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462993
+    m_Localized: 'Pyotr: Ah vale...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462992
+    m_Localized: Pyotr agacha la cabeza.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462991
+    m_Localized: '???: La verdad que no, pero soy bastante creyente.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462990
+    m_Localized: "???: \xBFSabes? Adios, no tengo tiempo para tonter\xEDas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462989
+    m_Localized: 'Pyotr: Seria muy feo si un cura me llamase viejo chocho'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462988
+    m_Localized: 'Pyotr: Eh, tampoco hace falta que faltes el respeto a la tercera
+      edad'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462987
+    m_Localized: '???: Solo eres un viejo chocho'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462986
+    m_Localized: '???: Lo que hay que aguantar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462985
+    m_Localized: Se rasca las orejas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462984
+    m_Localized: 'Pyotr: Si eres un vampiro o no'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462983
+    m_Localized: "???: \xBFSaber que?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462982
+    m_Localized: "Pyotr: Perooo... \xBFlo sabes no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462981
+    m_Localized: "Pyotr: En realidad te pregunt\xE9 si eres cura o vampiro."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462980
+    m_Localized: Pyotr levanta los hombros.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462979
+    m_Localized: '???: Me acabas de preguntar si soy un vampiro.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462978
+    m_Localized: "???: \xBFC\xF3mo no quieres que me ofenda?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462977
+    m_Localized: 'Pyotr: Solo es una duda no te ofendas hombre.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462976
+    m_Localized: "???: \xBFNadie te ense\xF1\xF3 modales?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268715
+    m_Localized: Frunce las cejas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268714
+    m_Localized: '???: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268713
+    m_Localized: "Pyotr: Perdona, \xBFeres cura?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268712
+    m_Localized: "Pyotr: Disculpa, \xBFeres un cura o un vampiro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268711
+    m_Localized: "Pyotr: Muchas gracias, amigo, cu\xEDdate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268710
+    m_Localized: "???: Cierto... Mira Pyotr, si giras a la izquierda y vas al final
+      hay como un vertedero algo encontrar\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268709
+    m_Localized: "Pyotr: La putada es que entre que no tengo dinero y no soy de aqu\xED
+      no voy a poder comprarla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268708
+    m_Localized: "???: Por aqu\xED cerca hay una tienda donde puedes comprarlos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268707
+    m_Localized: 'Pyotr: Estoy buscando unos engranajes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268706
+    m_Localized: "???:: Dime Pyotr, \xBFqu\xE9 necesitas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268705
+    m_Localized: 'Pyotr: Gracias amigo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268704
+    m_Localized: "Pyotr sonr\xEDe y le da la mano."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268703
+    m_Localized: '???: De acuerdo, tienes mi confianza.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268702
+    m_Localized: Le ofrece la mano a Pyotr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268701
+    m_Localized: 'Pyotr: Vale, tranquilo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268700
+    m_Localized: '???: Vete.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268699
+    m_Localized: Desenfunde completamente su espada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268698
+    m_Localized: 'Pyotr: Por favor necesito ayuda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268697
+    m_Localized: '???: Mejor desaparece de mi vista.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268696
+    m_Localized: Antes de poder terminar, le interrumpe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268695
+    m_Localized: 'Pyotr: Yo no quiero problemas amigo solo...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268694
+    m_Localized: '???: Si quieres que estemos bien respondeme.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268693
+    m_Localized: Desenfunde media espada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268692
+    m_Localized: 'Pyotr: Estoy ayudando a una amiga buscando unos elementos y necesito
+      ayuda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268691
+    m_Localized: "Pyotr: \xBFEstas haciendo muchas preguntas no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268690
+    m_Localized: "???: \xBFY que haces por aqu\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268689
+    m_Localized: 'Pyotr: La verdad que no, soy de la planta de abajo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268688
+    m_Localized: "???: \xBFNo eres de por aqu\xED verdad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268687
+    m_Localized: "Pyotr: Mejor me voy est\xE1s muy mal de la cabeza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268686
+    m_Localized: "???: Respondeme o te parto en dos como un palo de bamb\xFA."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268685
+    m_Localized: "???: Pero a\xFAn as\xED no me has respondido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268684
+    m_Localized: Desenfunde la espada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268683
+    m_Localized: "???: Bueno, viendolo as\xED tienes raz\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268682
+    m_Localized: Parece que eso lo calma, enfundando su espada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268681
+    m_Localized: 'Pyotr: Solo digo que es raro que no seas guardia y tengas una espada
+      contigo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268680
+    m_Localized: 'Pyotr: No, no yo no oculto nada.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268679
+    m_Localized: Pyotr mira brevemente a la espada, aclarandose la garganta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268678
+    m_Localized: "M\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268677
+    m_Localized: "???: \xBFOcultas algo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268676
+    m_Localized: "Con cada palabra que dice, desenfunde m\xE1s su espada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268675
+    m_Localized: "???: Porque tendr\xEDa que parecer un guardia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268674
+    m_Localized: 'Pyotr: Solo digo que no pareces un guardia ni nada.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268673
+    m_Localized: Lentamente, empieza a desenfundar su espada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268672
+    m_Localized: '???: Si quieres que estemos bien respondeme.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3292595779092480
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3292750330806272
+    m_Localized: Guardar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3293267467517952
+    m_Localized: "Espa\xF1ol"
     m_Metadata:
       m_Items: []
   references:

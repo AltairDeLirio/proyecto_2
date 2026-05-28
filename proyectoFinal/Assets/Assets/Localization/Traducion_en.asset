@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 145530634240
-    m_Localized: Quit
+    m_Localized: English
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721923
@@ -40,6 +40,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2813296721921
     m_Localized: 'Pyotr: Excuse me, can I ask you a question?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3292595779092480
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3292750330806272
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3293267467517952
+    m_Localized: Spanish
     m_Metadata:
       m_Items: []
   references:
