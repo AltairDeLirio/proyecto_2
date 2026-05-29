@@ -663,6 +663,528 @@ MonoBehaviour:
     m_Localized: '???: And the condemned souls'
     m_Metadata:
       m_Items: []
+  - m_Id: 3291840590463001
+    m_Localized: 'Pyotr: She''s a good person and has never hurt anyone. Why must
+      this happen to her?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463002
+    m_Localized: '???: I understand your frustration, friend, but you shouldn''t
+      lose faith because of this'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463003
+    m_Localized: '???: The gods are merciful, surely they have a plan for her'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463004
+    m_Localized: 'Pyotr: I hope so...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463005
+    m_Localized: 'Pyotr: I still have my doubts... but thank you for talking to me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463006
+    m_Localized: '???: Of course'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463007
+    m_Localized: '???: Do you need anything else?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463008
+    m_Localized: 'Pyotr: Well, I am looking for some springs. Do you know where I
+      could find some?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463009
+    m_Localized: '???: Yes, going down the street, near the wall. I believe there''s
+      some remains where you could find some'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463010
+    m_Localized: 'Pyotr: Alright, thank you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463011
+    m_Localized: '???: It''s no problem, and remember, have faith'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463012
+    m_Localized: '???: Yes, going down the street, near the wall. I believe there''s
+      some remains where you could find some'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590463013
+    m_Localized: 'Pyotr: Alright, thank you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630011127775254
+    m_Localized: 'Stranger: IT''S A LOVELY DAY, RIGHT?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630011127775255
+    m_Localized: Pyotr jumps, clutching his chest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904512
+    m_Localized: 'Pyotr: Fuck... I''m exhausted'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904513
+    m_Localized: Pyotr puts his hands on his knees, trying to catch his breath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904514
+    m_Localized: 'Pyotr: You have no idea how many stairs there are'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904515
+    m_Localized: 'Lilia: Then... let''s see if I''ve got this right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904516
+    m_Localized: Lilia taps her chin while looking at him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904517
+    m_Localized: 'Pyotr: Summarize it'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904518
+    m_Localized: 'Lilia: You''re not of this floor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904519
+    m_Localized: Pyotr nods in affirmation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904520
+    m_Localized: 'Pyotr: Right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904521
+    m_Localized: 'Lilia: You snuck in through some stairs that apparently has all
+      the floors attached and nobody knows of it'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904522
+    m_Localized: 'Pyotr: You''re right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904523
+    m_Localized: 'Lilia: And all of this to find a cure for your wife?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904524
+    m_Localized: Pyotr gives her a half smile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904525
+    m_Localized: 'Pyotr: Hit the nail on the head'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904526
+    m_Localized: 'Lilia: I have a question'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904527
+    m_Localized: 'Lilia: How old are you?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904528
+    m_Localized: 'Pyotr: 75 years old, why?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904529
+    m_Localized: 'Lilia: Nothing, just curious'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904530
+    m_Localized: Lilia turns, facing away from him as she writes things down on a
+      paper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904531
+    m_Localized: 'Pyotr: And you?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904532
+    m_Localized: 'Lilia: 14 years old'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904533
+    m_Localized: 'Pyotr: And this place is yours?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904534
+    m_Localized: Lilia glances at him over her shoulder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904535
+    m_Localized: 'Lilia: Yes, I''ve been improving it slowly'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904536
+    m_Localized: 'Pyotr: Incredible, kid'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904537
+    m_Localized: Lilia blushes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904538
+    m_Localized: 'Lilia: Thanks'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904539
+    m_Localized: Pyotr rubs the back of his neck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904540
+    m_Localized: 'Pyotr: Sorry about earlier... I didn''t see you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904541
+    m_Localized: 'Lilia: No worries, I was also in my own head'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904542
+    m_Localized: 'Pyotr: Do you mind waiting for me here for a moment?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904543
+    m_Localized: 'Lilia: Do you mind waiting for me here for a moment?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904544
+    m_Localized: 'Pyotr: Where are you going?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904545
+    m_Localized: 'Lilia: I have to run some errands, I won''t be long'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904546
+    m_Localized: 'Pyotr: Do you want me to tag along?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904547
+    m_Localized: 'Lilia: No, no need. Wait here.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904548
+    m_Localized: 'Pyotr: Alright.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904549
+    m_Localized: Lilia walks out the door but leaves the note on the desk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904550
+    m_Localized: Pyotr walks over and reads the note.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904551
+    m_Localized: 'Pyotr: Let''s see what you were going to look for...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904552
+    m_Localized: On the note, Lilia mentions wanting to make an artifact for his
+      legs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904553
+    m_Localized: 'Pyotr: Haha... how nice, let''s see if I can help her'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904554
+    m_Localized: Pyotr leaves the note and walks out of the workshop. He'll have
+      to look for the materials carefully.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904555
+    m_Localized: 'Lilia: Oh! I wasn''t expection you''d go look for them. Thank you,
+      Pyotr.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904556
+    m_Localized: Maybe there's more things to explore?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904557
+    m_Localized: No, that's all for now. (Quit)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904558
+    m_Localized: 'Lilia: What?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904559
+    m_Localized: 'Stranger: IT''S A LOVELY DAY, RIGHT?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904560
+    m_Localized: Pyotr jumps, clutching his chest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904561
+    m_Localized: 'Pyotr: What a scare, holy shit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904562
+    m_Localized: 'Pyotr: Can''t you see I''m an old man'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904563
+    m_Localized: The Stranger hits his head with his index finger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904564
+    m_Localized: 'Stranger: Age is mental, young man'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904565
+    m_Localized: 'Pyotr: Right... of course... as if my 75 years of age didn''t exist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904566
+    m_Localized: 'Stranger: WHAT ARE YOU DOING?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904567
+    m_Localized: 'Pyotr: Excuse me?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904568
+    m_Localized: 'Stranger: WHO IS IT?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904569
+    m_Localized: 'Pyotr: (lilting) It''s me~'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904570
+    m_Localized: 'Pyotr: Why do you ask me that?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904571
+    m_Localized: The Stranger has his eyes closed, clearly ignoring Pyotr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904572
+    m_Localized: Maybe you should have talked to him before Lilia...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904573
+    m_Localized: Well, I can continue exploring and return later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904574
+    m_Localized: I'll try again later... (Quit)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904575
+    m_Localized: The Stranger has his eyes closed, though he seems confused.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904576
+    m_Localized: How are you interacting with him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904577
+    m_Localized: You must have forgotten something important...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904578
+    m_Localized: Or, maybe you're trying to fix your mistakes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904579
+    m_Localized: 'Stranger: What question?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904580
+    m_Localized: 'Pyotr: You asked me who I am.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904581
+    m_Localized: 'Stranger: Nuh uh.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904582
+    m_Localized: 'Pyotr: You just asked.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904583
+    m_Localized: 'Stranger: Asked what?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904584
+    m_Localized: 'Pyotr: Are you pulling my leg?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904585
+    m_Localized: 'Stranger: No sir, I haven''t touched your leg'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904586
+    m_Localized: 'Pyotr: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904587
+    m_Localized: 'Pyotr: But you want to ask who I am?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904588
+    m_Localized: 'Stranger: And why would I want to know that?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904589
+    m_Localized: 'Pyotr: YOU ASKED ME!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904590
+    m_Localized: 'Stranger: WHAT QUESTION!?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904591
+    m_Localized: 'Pyotr: WHO I AM!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904592
+    m_Localized: "Stranger: Up your butt and there it\u2019s stuck, heh heh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904593
+    m_Localized: 'Pyotr: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904594
+    m_Localized: 'Pyotr: Fuck off'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904595
+    m_Localized: 'Stranger: WHO ARE YOU LOOKING FOR?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904596
+    m_Localized: 'Pyotr: Youuuu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904597
+    m_Localized: 'Pyotr: I''m looking for materials.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904598
+    m_Localized: 'Stranger: Sorry, but I don''t give that type of information'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904599
+    m_Localized: 'Pyotr: What? Why not?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904600
+    m_Localized: 'Stranger: I must go now'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904601
+    m_Localized: The Stranger closes his eyes, not moving from where he stands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904602
+    m_Localized: Pyotr looks at him, disconcerted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904603
+    m_Localized: 'Pyotr: You only closed your eyes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904604
+    m_Localized: 'Stranger: I don''t exist, I am not a character'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904605
+    m_Localized: 'Pyotr: What a character...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904606
+    m_Localized: 'Stranger: IT''S ALREADY LATE!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904607
+    m_Localized: 'Pyotr: Why?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904608
+    m_Localized: 'Pyotr: But it''s not even 18:00'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904609
+    m_Localized: 'Stranger: What did I say to my brother-in-law?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904610
+    m_Localized: "Pyotr: Who\u2019s your brother-in-law?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904611
+    m_Localized: "Pyotr: Who\u2019s your brother-in-law?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904612
+    m_Localized: 'Stranger: What do you think of the river?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904613
+    m_Localized: "Pyotr: The river\u2026 total crap."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904614
+    m_Localized: 'Pyotr: Is there a river up here?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904615
+    m_Localized: "Stranger: To be out here looking at this artichoke field\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904616
+    m_Localized: 'Pyotr: It really gets to me.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904617
+    m_Localized: "Pyotr: But aren\u2019t the crops in my floor?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904618
+    m_Localized: 'Stranger: You have passed the test, here, take this as a reward.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904619
+    m_Localized: The Stranger gives Pyotr a purple rock with a strange tone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904620
+    m_Localized: 'Pyotr: Ah... thank you very much, boss'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904621
+    m_Localized: It'd be best to return to Lilia, it's getting late.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904622
+    m_Localized: 'Stranger: We will meet again, goodbye'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904623
+    m_Localized: 'Pyotr: What a strange man'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904624
+    m_Localized: Better to return to Lilia and give her the materials.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
