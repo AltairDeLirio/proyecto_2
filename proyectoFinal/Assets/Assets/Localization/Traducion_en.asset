@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721923
-    m_Localized: '???: ...'
+    m_Localized: '???: This matcha is so good'
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721920
@@ -52,6 +52,615 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3293267467517952
     m_Localized: Spanish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3609736646574080
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3609796801282048
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3613258045800448
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173553655808
+    m_Localized: '???: Who are you calling kid? I''m 32 years old!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850112
+    m_Localized: She seems mad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850113
+    m_Localized: Pyotr rubs the back of his neck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850114
+    m_Localized: 'Pyotr: Ah... please forgive me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850115
+    m_Localized: '???: I know my height doesn''t help, but you shouldn''t be so prejudiced.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850116
+    m_Localized: 'Pyotr: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850117
+    m_Localized: '???: It''s like if I said, "hey mummy!"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850118
+    m_Localized: 'Pyotr: I understand. I truly am sorry.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850119
+    m_Localized: 'Pyotr: I think you''ve gone a bit far.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850120
+    m_Localized: Better not say anything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850121
+    m_Localized: '???: Yes, of course, tell me.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850122
+    m_Localized: 'Pyotr: I''m looking for some things for a friend, could you help
+      me?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850123
+    m_Localized: '???: What are you looking for exactly?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850124
+    m_Localized: 'Pyotr: Several things, honestly.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850125
+    m_Localized: '???: Well, tell me one, let''s see if I can help you.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850126
+    m_Localized: 'Pyotr: Do you know where I could find some wooden planks?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850127
+    m_Localized: '???: Hmm... I think by the tavern, there''s some strewn about the
+      floor.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850128
+    m_Localized: 'Pyotr: Perfect. And where can I find the tavern?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850129
+    m_Localized: '???: At the end of the street you can find it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850130
+    m_Localized: 'Pyotr: Thank you very much, miss.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850131
+    m_Localized: '???: It''s just, I feel quite bad when I''m treated as if I were
+      a kid. I apologize if I was a bit intense.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850132
+    m_Localized: 'Pyotr: I understand, the same happened to me at your age. I''ve
+      always been short, so I understand your anger.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850133
+    m_Localized: '???: To be honest, you really are quite short. I hadn''t noticed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850134
+    m_Localized: 'Pyotr: Now that we have solved this little scuffle, could you help
+      me find something?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850135
+    m_Localized: '???: Of course, what are you looking for?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850136
+    m_Localized: 'Pyotr: I''m looking for some wooden planks.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850137
+    m_Localized: She scratches her chin while she thinks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850138
+    m_Localized: '???: If you follow this street, you might some, near the tavern.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850139
+    m_Localized: 'Pyotr: Perfect, thank you so much and apologies for earlier'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850140
+    m_Localized: '???: It''s alright, have a nice day, sir'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850141
+    m_Localized: She raises her voice, almost yelling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850142
+    m_Localized: '???: I am not going too far! I''m tired of being confused for a
+      little kid!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850143
+    m_Localized: 'Pyotr: I already told you I''m sorry, there''s no need to continue
+      with this.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850144
+    m_Localized: '???: Sure it does! Some old man like you isn''t going to just come
+      by and call me a kid'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850145
+    m_Localized: Now, Pyotr is also starting to get mad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850146
+    m_Localized: 'Pyotr: You really are starting to go too far'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850147
+    m_Localized: '???: You know what? Leave. I don''t want to see you around here.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850148
+    m_Localized: 'Pyotr: But I need your help to find something'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850149
+    m_Localized: '???: LEAVE! Or I will call the guards!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850150
+    m_Localized: 'Pyotr: Okay, okay, I''m going'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850151
+    m_Localized: She laughs, making fun of him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850152
+    m_Localized: '???: What happened? Cat got your tongue?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850153
+    m_Localized: 'Pyotr: Look, ma''am, I''m an old man, I''m tired and I''m not in
+      the mood to get in a fight with someone.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850154
+    m_Localized: '???: Don''t treat me as ma''am, I''m still young.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850155
+    m_Localized: 'Pyotr: I''m sorry if I offended you. I just want to help my friend.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850156
+    m_Localized: '???: And who is your friend?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850157
+    m_Localized: 'Pyotr: Her name is Lilia, I''m working at her shop so I''m helping
+      her gather some materials.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850158
+    m_Localized: '???: I know Lilia, heard she''s a genius. Though, from what I''ve
+      heard, I find it quite hard to believe she''d want anyone''s help'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850159
+    m_Localized: 'Pyotr: I''m doing it without her knowing'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850160
+    m_Localized: '???: That''s quite nice of you. What are you looking for?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850161
+    m_Localized: 'Pyotr: I''m looking for some wooden planks'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850162
+    m_Localized: '???: If you follow this street, you might some, near the tavern.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850163
+    m_Localized: 'Pyotr: Thank you for your help'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10173557850164
+    m_Localized: '???: No worries'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931776
+    m_Localized: 'Pyotr: Excuse me, but can you carry weapons in this city?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931777
+    m_Localized: 'Pyotr: Nice sword, friend'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931778
+    m_Localized: '???: It''s a lovely day'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931779
+    m_Localized: '???: Excuse me?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931780
+    m_Localized: 'Pyotr: I was simply asking if that weapon is legal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931781
+    m_Localized: '???: What is it to you?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931782
+    m_Localized: '???: Plus, who even are you?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931783
+    m_Localized: 'Pyotr: And why do you care who I am?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931784
+    m_Localized: 'Pyotr: I''m Pyotr'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931785
+    m_Localized: '???: Thanks, it''s a family heirloom'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931786
+    m_Localized: 'Pyotr: Well it''s quite lovely, could I see it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931787
+    m_Localized: '???: Sorry, but I don''t let anyone touch it'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931788
+    m_Localized: 'Pyotr: No worries, I understand'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931789
+    m_Localized: '???: Do you need something?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931790
+    m_Localized: 'Pyotr: Well, now that you mention it, yes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931791
+    m_Localized: 'Pyotr: I''m looking for some gears'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931792
+    m_Localized: '???: Around here there''s a store where you could buy some'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931793
+    m_Localized: 'Pyotr: The thing is that between not having any money and me not
+      being from around here, I wouldn''t be able to buy them'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931794
+    m_Localized: '???: Right...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931795
+    m_Localized: '???: Look, Pyotr, if you go right and to the end of the street,
+      you''ll find a waste site. Might find some there'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12624985931796
+    m_Localized: 'Pyotr: Many thanks, friend. Take care'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268672
+    m_Localized: '???: If you want us to be fine, answer me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268673
+    m_Localized: Slowly, they start to unsheathe their sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268674
+    m_Localized: 'Pyotr: I''m simply saying you don''t seem to be a guard or anything
+      like that'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268675
+    m_Localized: '???: Why would I need to appear as a guard?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268676
+    m_Localized: With each word, they unsheathe the sword more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268677
+    m_Localized: '???: Are you hiding something?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268678
+    m_Localized: More.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268679
+    m_Localized: Pyotr briefle glances at the sword, clearing his throat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268680
+    m_Localized: 'Pyotr: No, no, I''m not hiding anything'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268681
+    m_Localized: 'Pyotr: I''m just saying it''s odd that you''re not a guard and
+      have a sword'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268682
+    m_Localized: It seems that calms them down, sheathing their sword.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268683
+    m_Localized: '???: Well, looking it that way, you have a point'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268684
+    m_Localized: They unsheathe their sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268685
+    m_Localized: '???: Even so, you haven''t answered me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268686
+    m_Localized: '???: Answer me or I''m cutting you in half like a bamboo stick'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268687
+    m_Localized: '???: I better leave, you''re not all there in the head'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268688
+    m_Localized: '???: You''re not from around here, right?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268689
+    m_Localized: 'Pyotr: To be honest, I''m not. I''m from the lower floor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268690
+    m_Localized: '???: And what are you doing around here?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268691
+    m_Localized: 'Pyotr: You''re asking a lot of questions, no?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268692
+    m_Localized: 'Pyotr: I''m helping out a friend to look for some materials and
+      need help'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268693
+    m_Localized: They unsheathe half of their sword.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268694
+    m_Localized: '???: If you want us to be fine, answer me'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268695
+    m_Localized: 'Pyotr: I don''t want any trouble, friend, just-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268696
+    m_Localized: Before he can finish, they interrumpt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268697
+    m_Localized: '???: Better get out of my sight'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268698
+    m_Localized: 'Pyotr: Please, I need help'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268699
+    m_Localized: They fully unsheathe their sword.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268700
+    m_Localized: '???: Leave'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268701
+    m_Localized: 'Pyotr: Okay, calm down'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268702
+    m_Localized: They offer their hand to Pyotr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268703
+    m_Localized: '???: Alright, I''ll trust you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268704
+    m_Localized: Pyotr smiles and takes their hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268705
+    m_Localized: 'Pyotr: Thank you, friend'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268706
+    m_Localized: '???: Say Pyotr, what do you need?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268707
+    m_Localized: 'Pyotr: I''m looking for some gears'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268708
+    m_Localized: '???: Around here there''s a store where you could buy some'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268709
+    m_Localized: 'Pyotr: The thing is that between not having any money and me not
+      being from around here, I wouldn''t be able to buy them'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268710
+    m_Localized: '???: Right... look, Pyotr, if you go right and to the end of the
+      street, you''ll find a waste site. Might find some there'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268711
+    m_Localized: 'Pyotr: Many thanks, friend. Take care'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268712
+    m_Localized: 'Pyotr: Excuse me, are you a priest or a vampire?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268713
+    m_Localized: '???: Excuse me, are you a priest?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268714
+    m_Localized: '???: May the goddess forgive us'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840586268715
+    m_Localized: His brows furrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462976
+    m_Localized: '???: Nobody show you some manners?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462977
+    m_Localized: 'Pyotr: It was just a question, don''t get offended man'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462978
+    m_Localized: '???: How do you expect me to not get offended?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462979
+    m_Localized: '???: You just asked me if I''m a vampire'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462980
+    m_Localized: Pyotr shrugs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462981
+    m_Localized: 'Pyotr: Actually, I asked if you were a priest or a vampire'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462982
+    m_Localized: 'Pyotr: Buttttttt.... you do know, right?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462983
+    m_Localized: '???: Know what?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462984
+    m_Localized: 'Pyotr: If you''re a vampire or not'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462985
+    m_Localized: He scratches his ears.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462986
+    m_Localized: '???: The things I have to put up with...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462987
+    m_Localized: '???: You''re just an old coot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462988
+    m_Localized: 'Pyotr: Hey, there''s no need to disrespect the elderly'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462989
+    m_Localized: 'Pyotr: It''d be quite rude if a priest called me an old coot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462990
+    m_Localized: '???: You know what? Goodbye, I don''t have time for stupidity'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462991
+    m_Localized: '???: To be honest, no, but I''m a devoted follower'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462992
+    m_Localized: Pyotr lowers his head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462993
+    m_Localized: 'Pyotr: Ah... alright...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462994
+    m_Localized: '???: Do you need something?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462995
+    m_Localized: 'Pyotr: To be honest...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462996
+    m_Localized: 'Pyotr: (With tears in his eyes) Lately, I''ve started to lose faith
+      in the gods'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3291840590462997
+    m_Localized: 'Pyotr: I need to know where I can find springs. Do you know where
+      to find them?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389632
+    m_Localized: '???: I don''t understand how people don''t understand the fucking
+      vibe'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389633
+    m_Localized: '???: To brandish MY SWORD'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389634
+    m_Localized: '???: And the condemned souls'
     m_Metadata:
       m_Items: []
   references:

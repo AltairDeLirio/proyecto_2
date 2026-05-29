@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721923
-    m_Localized: '???: ...'
+    m_Localized: "???: Que rico est\xE1 este t\xE9 matcha"
     m_Metadata:
       m_Items: []
   - m_Id: 2813296721921
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 12624985931778
-    m_Localized: '???: ...'
+    m_Localized: "???: Hace buen d\xEDa"
     m_Metadata:
       m_Items: []
   - m_Id: 12624985931777
@@ -522,7 +522,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3291840586268714
-    m_Localized: '???: ...'
+    m_Localized: '???: Que la Diosa se apieda de nosotros'
     m_Metadata:
       m_Items: []
   - m_Id: 3291840586268713
@@ -556,7 +556,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3291840586268706
-    m_Localized: "???:: Dime Pyotr, \xBFqu\xE9 necesitas?"
+    m_Localized: "???: Dime Pyotr, \xBFqu\xE9 necesitas?"
     m_Metadata:
       m_Items: []
   - m_Id: 3291840586268705
@@ -707,6 +707,495 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3293267467517952
     m_Localized: "Espa\xF1ol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3609736646574080
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3609796801282048
+    m_Localized: Volver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3613258045800448
+    m_Localized: Cargar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904624
+    m_Localized: Mejor volver con Lilia y darle los materiales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904623
+    m_Localized: "Pyotr: Que hombre m\xE1s raro"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904622
+    m_Localized: "Extra\xF1o: Nos volveremos a ver, adios"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904621
+    m_Localized: "Quizas deber\xEDa volver con Lilia, se est\xE1 haciendo tarde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904620
+    m_Localized: 'Pyotr: Ah.. muchisimas gracias jefe'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904619
+    m_Localized: "El extra\xF1o da a Pyotr una roca morada de un tono extra\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904618
+    m_Localized: "Extra\xF1o: Has pasado la prueba, toma este objeto como recompensa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904617
+    m_Localized: "Pyotr: \xBFPero si los cultivos est\xE1n en mi planta?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904616
+    m_Localized: 'Pyotr: A mi realmente me emociona'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904615
+    m_Localized: "Extra\xF1o: Estar aqu\xED viendo este campo de alcachofas..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904614
+    m_Localized: "Pyotr: \xBFHay un r\xEDo aqu\xED arriba?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904613
+    m_Localized: "Pyotr: El r\xEDo... una mierda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904612
+    m_Localized: "Extra\xF1o: \xBFQu\xE9 opinas del r\xEDo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904611
+    m_Localized: "Pyotr: \xBFQui\xE9n es tu cu\xF1ado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904610
+    m_Localized: "Pyotr: Ven aqu\xED orej\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904609
+    m_Localized: "Extra\xF1o: \xBFQu\xE9 le dije a mi cu\xF1ado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904608
+    m_Localized: 'Pyotr: Pero no son ni las 18:00'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904607
+    m_Localized: "Pyotr: \xBFPor qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904606
+    m_Localized: "Extra\xF1o: \xA1YA ES TARDE!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904605
+    m_Localized: 'Pyotr: Menudo personaje...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904604
+    m_Localized: "Extra\xF1o: No existo, no soy persona"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904603
+    m_Localized: 'Pyotr: Solo has cerrado los ojos.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904602
+    m_Localized: "Pyotr se lo mira, estra\xF1ado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904601
+    m_Localized: "El Extra\xF1o cierra los ojos sin moverse del sitio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904600
+    m_Localized: "Extra\xF1o: Me tengo que ir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904599
+    m_Localized: "Pyotr: \xBFC\xF3mo? \xBFPor qu\xE9 no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904598
+    m_Localized: "Extra\xF1o: Lo siento pero yo no doy ese tipo de informaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904597
+    m_Localized: 'Pyotr: Estoy buscando unos materiales.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904596
+    m_Localized: 'Pyotr: A tii'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904595
+    m_Localized: "Extra\xF1o: \xA1\xBFQUE VIENES A BUSCAR?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904594
+    m_Localized: 'Pyotr: Vete a la mierda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904593
+    m_Localized: 'Pyotr: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904592
+    m_Localized: "Extra\xF1o: Por el culo te la hinco, je je je"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904591
+    m_Localized: "Pyotr: \xA1QUE QU\xCDEN ERA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904590
+    m_Localized: "Extra\xF1o: \xA1\xBFCU\xC1L PREGUNTA?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904589
+    m_Localized: "Pyotr: \xA1T\xDA ME PREGUNTASTE!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904588
+    m_Localized: "Extra\xF1o: \xBFY para qu\xE9 quiero saber eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904587
+    m_Localized: "Pyotr: \xBFPero quieres saber quien soy?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904586
+    m_Localized: 'Pyotr: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904585
+    m_Localized: "Extra\xF1o: No se\xF1or, tu pelo no lo he tocado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904584
+    m_Localized: "Pyotr: \xBFMe est\xE1s tomando el pelo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904583
+    m_Localized: "Extra\xF1o: \xBFEl qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904582
+    m_Localized: 'Pyotr: Me lo acabas de preguntar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904581
+    m_Localized: "Extra\xF1o: Na uh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904580
+    m_Localized: 'Pyotr: Me has preguntado quien era.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630011127775254
+    m_Localized: "Estra\xF1o: \xA1\xBFHACE BUEN DIA VERDAD?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3630011127775255
+    m_Localized: Pyotr salta, tocandose el pecho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904577
+    m_Localized: Se te ha olvidado algo importante...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904576
+    m_Localized: "\xBFC\xF3mo estas interactuando con \xE9l?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904575
+    m_Localized: "El Extra\xF1o tiene los ojos cerrados, aunque parece confudido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904574
+    m_Localized: "Ya intentar\xE9 m\xE1s tarde... (Salir)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904573
+    m_Localized: Bueno, puedo continuar explorando y volver luego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904572
+    m_Localized: "Quizas deber\xEDas haber hablado con \xE9l antes de Lilia..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904571
+    m_Localized: "El Extra\xF1o tiene los ojos cerrados, claramente ignorando a Pyotr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904570
+    m_Localized: "Pyotr: \xBFPor qu\xE9 me preguntas eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904569
+    m_Localized: 'Pyotr: (en tono musical) Soy yo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904568
+    m_Localized: "Extra\xF1o: \xA1\xBFQUI\xC9N ES?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904567
+    m_Localized: "Pyotr: \xBFPerdona?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904566
+    m_Localized: "Extra\xF1o: \xA1\xBFQU\xC9 HACES?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904565
+    m_Localized: "Pyotr: Si... claro... Como si no me pesaran mis 75 a\xF1os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904564
+    m_Localized: "Extra\xF1o: La edad es mental jovencito."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904563
+    m_Localized: "El Extra\xF1o se da golpes en la cabeza con el dedo indice."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904579
+    m_Localized: "Extra\xF1o: \xBFQu\xE9 pregunta?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904578
+    m_Localized: "O, \xBFquizas estas intentando arreglar tus errores?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904562
+    m_Localized: 'Pyotr: No ves que soy una persona mayor.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904561
+    m_Localized: 'Pyotr: Que susto joder.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904560
+    m_Localized: Pyotr salta, tocandose el pecho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904559
+    m_Localized: "Extra\xF1o: \xA1\xBFHACE BUEN DIA VERDAD?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904558
+    m_Localized: "Lilia: \xBFQu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904557
+    m_Localized: No, eso es todo por ahora. (Salir)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904556
+    m_Localized: "\xBFQuiz\xE1s hay m\xE1s cosas que ver?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904555
+    m_Localized: "Lilia: \xA1Oh! No esperaba que fuese a por lo que buscaba, gracias
+      Pyotr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904554
+    m_Localized: "Pyotr deja la nota y sale del taller. Tendr\xE1 que buscar los
+      materiales con cuidado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904553
+    m_Localized: 'Pyotr: Jeje... que maja, voy a ver si puedo ayudarla.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904552
+    m_Localized: En la nota, Lilia menciona que quiere fabricar un artefacto para
+      sus piernas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904551
+    m_Localized: 'Pyotr: Veamos a ver que es lo que va a buscar...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904550
+    m_Localized: Pyotr se acerca a la nota y la lee.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904549
+    m_Localized: Lilia sale por la puerta pero deja una nota en la mesa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904548
+    m_Localized: 'Pyotr: Vale.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904547
+    m_Localized: "Lilia: No hace falta, espera aqu\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904546
+    m_Localized: "Pyotr: \xBFQuieres que te acompa\xF1e?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904545
+    m_Localized: "Lilia: Tengo que hacer unos recados, no tardar\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904544
+    m_Localized: "Pyotr: \xBFA donde vas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904543
+    m_Localized: "Lilia: \xBFTe importa esperarme aqu\xED un momento?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904542
+    m_Localized: 'Pyotr: No pasa nada.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904541
+    m_Localized: "Lilia: Tranquilo, yo tambi\xE9n iba a lo mio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904540
+    m_Localized: 'Pyotr: Lo siento por lo de antes... no te he visto.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904539
+    m_Localized: Pyotr pone la mano en la nuca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904538
+    m_Localized: 'Lilia: Gracias.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904537
+    m_Localized: Lilia se sonroja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904536
+    m_Localized: "Pyotr: Incre\xEDble ni\xF1a."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904535
+    m_Localized: 'Lilia: Si, lo he ido mejorando poco a poco.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904534
+    m_Localized: Lilia le mira sobre el hombro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904533
+    m_Localized: "Pyotr: \xBFY esto es tuyo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904532
+    m_Localized: "Lilia: 14 a\xF1os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904531
+    m_Localized: "Pyotr: \xBFY t\xFA?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904530
+    m_Localized: Lilia se da la vuelta, dandole la espalda mientras anota cosas en
+      un papel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904529
+    m_Localized: "Lilia: No simplemente ten\xEDa curiosidad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904528
+    m_Localized: "Pyotr: 75 a\xF1os, \xBFalguna raz\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904527
+    m_Localized: "Lilia: \xBFCuantos a\xF1os tienes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904526
+    m_Localized: 'Lilia: Tengo una duda.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904525
+    m_Localized: 'Pyotr: Lo has clavado.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904524
+    m_Localized: Pyotr le da una media sonrisa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904523
+    m_Localized: "Lilia: \xBFY todo esto para encontrar una cura para tu mujer?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904522
+    m_Localized: 'Pyotr: Vas bien.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904521
+    m_Localized: 'Lilia: Te has colado por unas escaleras que supuestamente tiene
+      todas las plantas y que nadie conoce.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904520
+    m_Localized: "Pyotr: As\xED es."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904519
+    m_Localized: Pyotr afirma con la cabeza.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904518
+    m_Localized: 'Lilia: No eres de esta planta.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904517
+    m_Localized: 'Pyotr: Haz un resumen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904516
+    m_Localized: Lilia se toca la barbilla mientras lo mira.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904515
+    m_Localized: 'Lilia: Entoncees... A ver si me ha quedado claro...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904514
+    m_Localized: 'Pyotr: No sabes la cantidad de escaleras que hay.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904513
+    m_Localized: Pyotr pone las manos en las rodillas, intentando recuperar el aliento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650776371904512
+    m_Localized: 'Pyotr: Joder... que cansancio...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389634
+    m_Localized: '???: Y las almas corrompidas'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389633
+    m_Localized: '???: Para blandir MI ESPADA!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3658267000389632
+    m_Localized: '???: No entiendo como hay gente que no entiende la puta vibra'
     m_Metadata:
       m_Items: []
   references:

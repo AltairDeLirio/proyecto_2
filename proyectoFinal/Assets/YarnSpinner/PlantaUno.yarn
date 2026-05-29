@@ -1,6 +1,5 @@
 ﻿title: NPC1
 ---
-
 <<if $quest == true>>
 	<<once>>
 
@@ -14,7 +13,8 @@
 	<<endonce>>
 <<else>> 
 
-???: ... #line:055f727 
+???: Que rico está este té matcha #line:055f727 
+???: No entiendo como hay gente que no entiende la puta vibra #line:05ef333 
 
 <<endif>>
 
@@ -22,7 +22,6 @@
 
 title: NPC1_neg
 ---
-
 ???: ¿A quién llamas niña? Tengo 32 años #line:039eafb 
 
 Se nota enfadada. #line:0ac03b3 
@@ -43,14 +42,10 @@ Pyotr: ... #line:0cd061f
 	<<jump NPC1_neg1>>
 -> Mejor no decir nada... #line:03c3c1a 
 	<<jump NPC1_neu>>
-
-<<end>>
-
 ===
 
 title: NPC1_pos
 ---
-
 ???: Si claro dime #line:04eb021 
 
 Pyotr: Estoy buscando unas cosas para una amiga, ¿me podrías ayudar? #line:0e253ad 
@@ -70,13 +65,10 @@ Pyotr: Perfecto. ¿Y por donde se va a la taberna? #line:0593368
 ???: Al final de la calle lo podrás encontrar #line:0a2f524 
 
 Pyotr: Muchas gracias señorita.  #line:04f2cbd 
-<<end>>
-
 ===
 
 title: NPC1_pos1
 ---
-
 ???: Es que me sienta muy mal cuando me tratan de niña. Lo siento si he sido un poco intensa. #line:0e383b7 
 
 Pyotr:Lo entiendo, me pasaba lo mismo a tu edad. Yo siempre he sido bajito y entiendo tu enfado #line:0b50cf1 
@@ -96,14 +88,10 @@ Se rasca la barbilla mientras piensa. #line:0e71202
 Pyotr: Perfecto, muchas gracias. Y disculpa por lo del principio. #line:03d5368 
 
 ???: No pasa nada, que tengas buen día señor. #line:0e65871 
-
-<<end>>
-
 ===
 
 title: NPC1_neg1
 ---
-
 Alza la voz, medio gritando. #line:07df553 
 
 ???: ¡No me estoy pasando, estoy cansada de que me confundan con una niña! #line:02d6d2e 
@@ -123,14 +111,10 @@ Pyotr: Pero necesito tu ayuda para encontrar algo. #line:0b3dd75
 ???: ¡QUE TE VAYAS! O aviso a los guardias. #line:0341b63 
 
 Pyotr: Vale, vale, ya me voy. #line:00e487a 
-
-<<end>>
-
 ===
 
 title: NPC1_neu
 ---
-
 Se ríe, burlandose. #line:0204ab3 
 
 ???: ¿Que ha pasado?¿Se te ha comido la lengua el gato? #line:081caf8 
@@ -158,13 +142,10 @@ Pyotr: Busco algunos tablones de madera. #line:08276da
 Pyotr: Gracias por la ayuda. #line:02c1c1f 
 
 ???: No hay de que. #line:00f8530 
-
-<<end>>
 ===
 
 title: NPC2
 ---
-
 <<if $quest == true>>
 	<<once>>
 	->Pyotr: Disculpa pero, ¿acaso se pueden llevar armas en esta ciudad? #line:0a6ad05 
@@ -176,14 +157,14 @@ title: NPC2
 
 <<else>>
 
-???: ... #line:0d53e7d 
+???: Hace buen día #line:0d53e7d 
+???: Para blandir MI ESPADA! #line:060e610 
 
 <<endif>>
 ===
 
 title: NPC2_neg
 ---
-
 ???: ¿Perdona? #line:0537cc5 
 
 Pyotr: Simplemente pregunto si es legal esa arma. #line:0aad7c1 
@@ -196,13 +177,10 @@ Pyotr: Simplemente pregunto si es legal esa arma. #line:0aad7c1
 	<<jump NPC2_neg1>>
 -> Pyotr: Yo soy Pyotr #line:09693bc 
 	<<jump NPC2_pos1>>
-
-<<end>>
 ===
 
 title: NPC2_pos
 ---
-
 ???: Gracias, es una herencia familiar. #line:0b7c003 
 
 Pyotr: Pues es muy bonita, ¿la puedo ver? #line:0be46c7 
@@ -226,13 +204,10 @@ Pyotr: La putada es que entre que no tengo dinero y no soy de aquí no voy a pod
 ???: Mira Pyotr, si giras a la izquierda y vas al final hay como un vertedero algo encontrarás. #line:094aca9 
 
 Pyotr: Muchas gracias, amigo, cuídate. #line:02ee20a 
-
-<<end>>
 ===
 
 title: NPC2_neg1
 ---
-
 ???: Si quieres que estemos bien respondeme. #line:064e338 
 
 Lentamente, empieza a desenfundar su espada. #line:07fa35e 
@@ -264,14 +239,10 @@ Desenfunde la espada. #line:0571dd8
 ???: Respondeme o te parto en dos como un palo de bambú. #line:046d0c0 
 
 Pyotr: Mejor me voy estás muy mal de la cabeza #line:085ac9f 
-
-<<end>>
-
 ===
 
 title: NPC2_pos1
 ---
-
 ???: ¿No eres de por aquí verdad? #line:0bf75b3 
 
 Pyotr: La verdad que no, soy de la planta de abajo #line:0dd4ba3 
@@ -282,14 +253,10 @@ Pyotr: La verdad que no, soy de la planta de abajo #line:0dd4ba3
 	<<jump NPC2_neg2>>
 -> Pyotr: Estoy ayudando a una amiga buscando unos elementos y necesito ayuda #line:01fa0a2 
 	<<jump NPC2_pos2>>
-
-<<end>>
-
 ===
 
 title: NPC2_neg2
 ---
-
 Desenfunde media espada. #line:0937fb1 
 
 ???: Si quieres que estemos bien respondeme. #line:08c48f8 
@@ -307,14 +274,10 @@ Desenfunde completamente su espada. #line:07f5c89
 ???: Vete. #line:08a2d47 
 
 Pyotr: Vale, tranquilo #line:04ef851 
-
-<<end>>
-
 ===
 
 title: NPC2_pos2
 ---
-
 Le ofrece la mano a Pyotr. #line:068b330 
 
 ???: De acuerdo, tienes mi confianza. #line:04ac1d0 
@@ -334,14 +297,10 @@ Pyotr: La putada es que entre que no tengo dinero y no soy de aquí no voy a pod
 ???: Cierto... Mira Pyotr, si giras a la izquierda y vas al final hay como un vertedero algo encontrarás #line:0d8039b 
 
 Pyotr: Muchas gracias, amigo, cuídate. #line:0d5dcdc 
-
-<<end>>
-
 ===
 
 title: NPC3
 ---
-
 <<if $quest == true>>
 	<<once>>
 	->Pyotr: Disculpa, ¿eres un cura o un vampiro? #line:016a4b8 
@@ -351,15 +310,14 @@ title: NPC3
 	
 	<<endonce>>
 <<else>>
-???: ... #line:0b81401 
+???: Que Dios se apieda de nosotros #line:0b81401 
+???: Y las almas corrompidas #line:08c198b 
 
 <<endif>>
-
 ===
 
 title: NPC3_neg
 ---
-
 Frunce las cejas. #line:020e24c 
 
 ???: ¿Nadie te enseñó modales? #line:002de3f 
@@ -391,14 +349,10 @@ Pyotr: Eh, tampoco hace falta que faltes el respeto a la tercera edad #line:0f35
 Pyotr: Seria muy feo si un cura me llamase viejo chocho #line:0c8d230 
 
 ???: ¿Sabes? Adios, no tengo tiempo para tonterías. #line:0d84457 
-
-<<end>>
-
 ===
 
 title: NPC3_pos
 ---
-
 ???: La verdad que no, pero soy bastante creyente. #line:040af55 
 
 Pyotr agacha la cabeza. #line:09fb5be 
@@ -413,13 +367,10 @@ Pyotr: La verdad que... #line:0375f2c
 	<<jump NPC3_pos1>>
 -> Pyotr: Necesito saber donde puedo encontrar muelles ¿Sabes donde encontrar? #line:066d349 
 	<<jump NPC3_neu>>
-<<end>>
-
 ===
 
 title: NPC3_pos1
 ---
-
 ???: Eso le puede pasar a todas las personas. #line:0c0772c 
 
 ???: ¿Puedo saber porqué? #line:02f9659 
@@ -447,18 +398,311 @@ Pyotr: Pues estoy buscando unos muelles, ¿sabes donde encontrar? #line:0db6baf
 Pyotr: De acuerdo gracias. #line:016c3ed 
 
 ???: No hay de que, y recuerda, ten fe. #line:0cbce8e 
-
-<<end>>
-
 ===
 
 title: NPC3_neu
 ---
-
 ???: Si, bajando la calle, cerca de la muralla creo que hay restos donde puede haber #line:0c5270e 
 
 Pyotr: De acuerdo gracias. #line:02f5e64 
+===
 
-<<end>>
+title: Lilia
+---
+<<declare $quest = false>>
+<<declare $completedQuest = false>>
+<<declare $correctAnswer = 0>>
+<<if $quest == false>>
+	<<set $quest = true>>
 
+	Pyotr: Joder... que cansancio... #line:04e6f48 
+
+	Pyotr pone las manos en las rodillas, intentando recuperar el aliento. #line:063d0ea 
+
+	Pyotr: No sabes la cantidad de escaleras que hay. #line:07efc66 
+
+	Lilia: Entoncees... A ver si me ha quedado claro... #line:03ee025 
+
+	Lilia se toca la barbilla mientras lo mira. #line:0da933f 
+
+	Pyotr: Haz un resumen. #line:07debd8 
+
+	Lilia: No eres de esta planta. #line:0d44a5e 
+
+	Pyotr afirma con la cabeza. #line:0f301c5 
+
+	Pyotr: Así es. #line:02e2910 
+
+	Lilia: Te has colado por unas escaleras que supuestamente tiene todas las plantas y que nadie conoce. #line:0fb6bc7 
+
+	Pyotr: Vas bien. #line:08c0dc1 
+
+	Lilia: ¿Y todo esto para encontrar una cura para tu mujer? #line:00556ac 
+
+	Pyotr le da una media sonrisa. #line:02c05d4 
+
+	Pyotr: Lo has clavado. #line:0dd6971 
+
+	Lilia: Tengo una duda. #line:04d710c 
+
+	Lilia: ¿Cuantos años tienes? #line:0b8ce87 
+
+	Pyotr: 75 años, ¿alguna razón? #line:0e1f6a9 
+
+	Lilia: No simplemente tenía curiosidad. #line:0ac2ebb 
+
+	Lilia se da la vuelta, dandole la espalda mientras anota cosas en un papel. #line:00506b3 
+
+	Pyotr: ¿Y tú? #line:0435b17 
+
+	Lilia: 14 años. #line:0e81816 
+
+	Pyotr: ¿Y esto es tuyo? #line:0d9da47 
+
+	Lilia le mira sobre el hombro. #line:0bc8ad2 
+
+	Lilia: Si, lo he ido mejorando poco a poco. #line:0107912 
+
+	Pyotr: Increíble niña. #line:0a2f697 
+
+	Lilia se sonroja. #line:08ff7c2 
+
+	Lilia: Gracias. #line:0226b24 
+
+	Pyotr pone la mano en la nuca. #line:0fe4589 
+
+	Pyotr: Lo siento por lo de antes... no te he visto. #line:0b28275 
+
+	Lilia: Tranquilo, yo también iba a lo mio. #line:0a70b36 
+
+	Pyotr: No pasa nada. #line:0743b43 
+
+	Lilia: ¿Te importa esperarme aquí un momento? #line:021861b 
+
+	Pyotr: ¿A donde vas? #line:0cfecf0 
+
+	Lilia: Tengo que hacer unos recados, no tardaré. #line:003141f 
+
+	Pyotr: ¿Quieres que te acompañe? #line:08a03fd 
+
+	Lilia: No hace falta, espera aquí. #line:06e61ac 
+
+	Pyotr: Vale. #line:03fb910 
+
+	Lilia sale por la puerta pero deja una nota en la mesa. #line:047f96b 
+
+	Pyotr se acerca a la nota y la lee. #line:019a199 
+
+	Pyotr: Veamos a ver que es lo que va a buscar... #line:0d09491 
+
+	En la nota, Lilia menciona que quiere fabricar un artefacto para sus piernas. #line:05c108d 
+
+	Pyotr: Jeje... que maja, voy a ver si puedo ayudarla. #line:0bec7f1 
+
+	Pyotr deja la nota y sale del taller. Tendrá que buscar los materiales con cuidado. #line:07e7e2a 
+
+<<elseif $hasWood and $hasGears and $hasSprings>>
+	<<set $completedQuest = true>>
+	Lilia: ¡Oh! No esperaba que fuese a por lo que buscaba, gracias Pyotr. #line:07d681b 
+	-> ¿Quizás hay más cosas que ver? #line:0feea3e 
+		<<stop>>
+	-> No, eso es todo por ahora. (Salir) #line:066003d 
+		<<load_scene MainMenu>>
+
+<<else>>
+	Lilia: ¿Qué? #line:0a64256 
+
+<<endif>>
+===
+
+title: NPC4
+---
+<<if $completedQuest == false and $hasWood and $hasGears and $hasSprings>>
+	<<once>>
+	Extraño: ¡¿HACE BUEN DIA VERDAD?! #line:05303fc 
+
+	Pyotr salta, tocandose el pecho. #line:0f531a7 
+
+	Pyotr: Que susto joder. #line:0740854 
+
+	Pyotr: No ves que soy una persona mayor. #line:0ba2f1b 
+
+	El Extraño se da golpes en la cabeza con el dedo indice. #line:0ca6de9 
+
+	Extraño: La edad es mental jovencito. #line:0e075f1 
+
+	Pyotr: Si... claro... Como si no me pesaran mis 75 años. #line:09b1865 
+
+	Extraño: ¡¿QUÉ HACES?! #line:0740a15 
+
+	Pyotr: ¿Perdona? #line:0749501 
+
+	Extraño: ¡¿QUIÉN ES?! #line:0a74617 
+
+	-> Pyotr: (en tono musical) Soy yo #line:06e8353 
+		<<jump NPC4_pos>>
+	-> Pyotr: ¿Por qué me preguntas eso? #line:09be98e 
+		<<jump NPC4_neu>>
+	<<endonce>>
+
+<<elseif $completedQuest == true>>
+	El Extraño tiene los ojos cerrados, claramente ignorando a Pyotr. #line:04a9b7c 
+
+	Quizas deberías haber hablado con él antes de Lilia... #line:05b80b3 
+	-> Bueno, puedo continuar explorando y volver luego. #line:0d604d4 
+		<<stop>>
+	-> Ya intentaré más tarde... (Salir) #line:0407f4f 
+		<<load_scene MainMenu>>
+
+<<else>>
+	El Extraño tiene los ojos cerrados, aunque parece confudido. #line:0871dd9 
+
+	¿Cómo estas interactuando con él? #line:0873083 
+
+	Se te ha olvidado algo importante... #line:06a87a5 
+
+	O, ¿quizas estas intentando arreglar tus errores? #line:03569bb 
+
+<<endif>>
+===
+
+title: NPC4_neu
+---
+
+Extraño: ¿Qué pregunta? #line:028f1b5 
+
+Pyotr: Me has preguntado quien era. #line:0536574 
+
+Extraño: Na uh #line:0df0f5f 
+
+Pyotr: Me lo acabas de preguntar. #line:0791577 
+
+Extraño: ¿El qué? #line:099fd3e 
+
+Pyotr: ¿Me estás tomando el pelo? #line:0928d21 
+
+Extraño: No señor, tu pelo no lo he tocado #line:0347221 
+
+Pyotr: ... #line:0e74a89 
+
+Pyotr: ¿Pero quieres saber quien soy? #line:0295024 
+
+Extraño: ¿Y para qué quiero saber eso? #line:05b5c1d 
+
+Pyotr: ¡TÚ ME PREGUNTASTE! #line:03f22b6 
+
+Extraño: ¡¿CUÁL PREGUNTA?! #line:0118ed4 
+
+Pyotr: ¡QUE QUÍEN ERA! #line:03cf65a 
+
+Extraño: Por el culo te la hinco, je je je #line:0e9b56c 
+
+Pyotr: ... #line:0cf6727 
+
+Pyotr: Vete a la mierda #line:00913e1 
+===
+
+title: NPC4_pos
+---
+
+Extraño: ¡¿QUE VIENES A BUSCAR?! #line:03e7a20 
+
+-> Pyotr: A tii #line:0ecdc1b 
+	<<jump NPC4_pos1>>
+-> Pyotr: Estoy buscando unos materiales. #line:0a9cd5a 
+	<<jump NPC4_neu1>>
+===
+
+title: NPC4_neu1
+---
+
+Extraño: Lo siento pero yo no doy ese tipo de información. #line:041102a 
+
+Pyotr: ¿Cómo? ¿Por qué no? #line:034d48b 
+
+Extraño: Me tengo que ir #line:08f0a0a 
+
+El Extraño cierra los ojos sin moverse del sitio. #line:0156efb 
+
+Pyotr se lo mira, estrañado. #line:0c71b94 
+
+Pyotr: Solo has cerrado los ojos. #line:0d135bd 
+
+Extraño: No existo, no soy persona #line:0ac0fdd 
+
+Pyotr: Menudo personaje... #line:0cf061c 
+===
+
+title: NPC4_pos1
+---
+
+Extraño: ¡YA ES TARDE! #line:07513de 
+
+-> Pyotr: ¿Por qué? #line:0860bb8 
+	<<set $correctAnswer = 1>>
+	<<jump pregunta1>>
+-> Pyotr: Pero no son ni las 18:00 #line:07e48a2 
+	<<jump pregunta1>>
+===
+
+title: pregunta1
+---
+
+Extraño: ¿Qué le dije a mi cuñado? #line:0f76050 
+
+-> Pyotr: Ven aquí orejón #line:0f63798 
+	<<set $correctAnswer = $correctAnswer + 1>>
+	<<jump pregunta2>>
+-> Pyotr: ¿Quién es tu cuñado? #line:0946298 
+	<<jump pregunta2>>
+
+===
+
+title: pregunta2
+---
+
+Extraño: ¿Qué opinas del río? #line:0309681 
+
+-> Pyotr: El río... una mierda #line:07d50a1 
+	<<set $correctAnswer = $correctAnswer + 1>>
+	<<jump pregunta3>>
+-> Pyotr: ¿Hay un río aquí arriba? #line:0ff9e88 
+	<<jump pregunta3>>
+
+===
+
+title: pregunta3
+---
+
+Extraño: Estar aquí viendo este campo de alcachofas... #line:0162247 
+
+-> Pyotr: A mi realmente me emociona #line:0faf2dd 
+	<<set $correctAnswer = $correctAnswer + 1>>
+	<<jump fin>>
+-> Pyotr: ¿Pero si los cultivos están en mi planta? #line:02031dc 
+	<<jump fin>>
+
+===
+
+title: fin
+---
+
+<<if $correctAnswer == 4>>
+	Extraño: Has pasado la prueba, toma este objeto como recompensa. #line:037e0c7 
+
+	El extraño da a Pyotr una roca morada de un tono extraño. #line:0ac03d0 
+
+	Pyotr: Ah.. muchisimas gracias jefe #line:0b3cddb 
+
+	Quizas debería volver con Lilia, se está haciendo tarde. #line:04ab9f0 
+	<<set $hasRock = true>>
+
+<<else>>
+	Extraño: Nos volveremos a ver, adios #line:01938e4 
+
+	Pyotr: Que hombre más raro #line:0682361 
+
+	Mejor volver con Lilia y darle los materiales. #line:05cf47e 
+
+<<endif>>
 ===

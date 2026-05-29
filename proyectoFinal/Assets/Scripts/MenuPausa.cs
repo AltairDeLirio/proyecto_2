@@ -110,4 +110,14 @@ public class MenuPausa : MonoBehaviour
             Debug.Log("Partida cargada desde el menú de pausa");
         }
     }
+
+    //salir del juego
+    public void QuitGame()
+    {
+        Application.Quit();
+        //quit en Unity, para asegurar que funciona
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
 }
