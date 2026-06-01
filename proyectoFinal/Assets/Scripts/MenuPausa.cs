@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MenuPausa : MonoBehaviour
 {
@@ -49,7 +50,7 @@ public class MenuPausa : MonoBehaviour
             tiempoTranscurrido += Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             if (juegoPausado)
                 Reanudar();
