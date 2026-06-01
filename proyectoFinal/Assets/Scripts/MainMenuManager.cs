@@ -13,12 +13,22 @@ public class MainMenuManager : MonoBehaviour
 
     void Start()
     {
+        // ssi SceneLoader.Instance es nulo, intentamos buscar el objeto en la escena
+        if (SceneLoader.Instance == null)
+        {
+            SceneLoader cargadorAsistido = FindFirstObjectByType<SceneLoader>();
+            if (cargadorAsistido == null)
+            {
+                Debug.LogWarning("[MainMenuManager] ¡Cuidado! No se encuentra ningún objeto con el script SceneLoader en la escena. Asegúrate de tener el objeto creado.");
+            }
+        }
+
         // si no hay archivo se desactiva el botón principal del menu
         if (botonCargarPartida != null && SaveManager.Instancia != null)
         {
             botonCargarPartida.interactable = SaveManager.Instancia.ExistePartidaGuardada();
         }
-        
+
         //comprobacion
         if (panelConfirmacion != null)
         {
@@ -28,7 +38,14 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneLoader.Instance.LoadScene("PlantaUno", "start");
+        if (SceneLoader.Instance != null)
+        {
+            SceneLoader.Instance.LoadScene("PlantaUno", "start");
+        }
+        else
+        {
+            Debug.LogError("[MainMenuManager] No se puede iniciar el juego porque SceneLoader.Instance sigue siendo nulo.");
+        }
     }
 
     // boton "cargar partida" principal 
@@ -37,10 +54,9 @@ public class MainMenuManager : MonoBehaviour
         if (SaveManager.Instancia != null)
         {
             PlayerData datos = SaveManager.Instancia.CargarJuego();
-            
+
             if (datos != null && panelConfirmacion != null)
             {
-                
                 panelConfirmacion.SetActive(true);
 
                 // se rellena los textos con los datos exactos
@@ -58,7 +74,14 @@ public class MainMenuManager : MonoBehaviour
             PlayerData datos = SaveManager.Instancia.CargarJuego();
             if (datos != null)
             {
-                SceneLoader.Instance.LoadScene(datos.nombreEscena, "start");
+                if (SceneLoader.Instance != null)
+                {
+                    SceneLoader.Instance.LoadScene(datos.nombreEscena, "start");
+                }
+                else
+                {
+                    Debug.LogError("[MainMenuManager] No se puede cargar la partida porque SceneLoader.Instance es nulo.");
+                }
             }
         }
     }
@@ -68,7 +91,7 @@ public class MainMenuManager : MonoBehaviour
     {
         if (panelConfirmacion != null)
         {
-            panelConfirmacion.SetActive(false); 
+            panelConfirmacion.SetActive(false);
         }
     }
 
