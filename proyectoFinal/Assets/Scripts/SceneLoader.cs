@@ -45,6 +45,6 @@ public class SceneLoader : MonoBehaviour
         //check que el juego no esté pausado antes de cargar la escena, para evitar problemas con el tiempo
         Time.timeScale = 1f;
 
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
