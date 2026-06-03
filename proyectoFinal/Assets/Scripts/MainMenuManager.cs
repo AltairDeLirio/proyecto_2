@@ -13,7 +13,7 @@ public class MainMenuManager : MonoBehaviour
 
     void Start()
     {
-        // ssi SceneLoader.Instance es nulo, intentamos buscar el objeto en la escena
+        // si SceneLoader.Instance es nulo, intentamos buscar el objeto en la escena
         if (SceneLoader.Instance == null)
         {
             SceneLoader cargadorAsistido = FindFirstObjectByType<SceneLoader>();
@@ -38,6 +38,14 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGame()
     {
+        // === TRUCO MAESTRO: Apagamos el menú para que no tape PlantaUno ===
+        GameObject menuVisual = GameObject.Find("UI_menu");
+        if (menuVisual != null)
+        {
+            menuVisual.SetActive(false);
+        }
+        // =================================================================
+
         if (SceneLoader.Instance != null)
         {
             SceneLoader.Instance.LoadScene("PlantaUno", "start");
@@ -69,6 +77,14 @@ public class MainMenuManager : MonoBehaviour
     // boton "confirmar" 
     public void ConfirmarCarga()
     {
+        // === TAMBIÉN AQUÍ: Por si cargas partida, que tampoco se queden los árboles ===
+        GameObject menuVisual = GameObject.Find("UI_menu");
+        if (menuVisual != null)
+        {
+            menuVisual.SetActive(false);
+        }
+        // =============================================================================
+
         if (SaveManager.Instancia != null)
         {
             PlayerData datos = SaveManager.Instancia.CargarJuego();
