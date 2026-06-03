@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -683,18 +683,18 @@ MonoBehaviour:
       y: 21
       width: 499
       height: 594
-    m_Scale: {x: 0.25989583, y: 0.25989583}
-    m_Translation: {x: 249.5, y: 297}
+    m_Scale: {x: 0.2676927, y: 0.2676927}
+    m_Translation: {x: 244.53502, y: 297}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -1142.7655
-      width: 1920
-      height: 2285.531
+      x: -913.4916
+      y: -1109.4812
+      width: 1864.0779
+      height: 2218.9624
     m_MinimalGUI: 1
   m_defaultScale: 0.25989583
   m_LastWindowPixelSize: {x: 499, y: 615}
@@ -749,13 +749,17 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1364
-      - m_Data: 51828
-      - m_Data: 52068
+      - m_Data: -19242
+      - m_Data: -17508
+      - m_Data: -3782
+      - m_Data: -1684
+      - m_Data: 54354
+      - m_Data: 54524
+      - m_Data: 60324
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MainCamera1
-        m_OriginalName: MainCamera1
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -763,10 +767,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 51768
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1484,9 +1488,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 6.6603436, y: 62.11255, z: 192.22116}
+    m_Target: {x: 0.35354996, y: 3.872, z: -1.5344503}
     speed: 2
-    m_Value: {x: 6.6603436, y: 62.11255, z: 192.22116}
+    m_Value: {x: 0.35354996, y: 3.872, z: -1.5344503}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1532,13 +1536,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24369344, y: 0.5796415, z: -0.1871483, w: -0.7547489}
+    m_Target: {x: -0.098189734, y: 0.8663805, z: -0.18819591, w: -0.45202577}
     speed: 2
-    m_Value: {x: -0.24368845, y: 0.57962966, z: -0.18714446, w: -0.7547334}
+    m_Value: {x: -0.09818967, y: 0.8663799, z: -0.18819578, w: -0.45202544}
   m_Size:
-    m_Target: 5.140474
+    m_Target: 3.8093154
     speed: 2
-    m_Value: 5.140474
+    m_Value: 3.8093154
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1755,7 +1759,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.render-pipelines.core/Runtime/Sampling
+    - Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Input
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1765,18 +1769,18 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.unity.render-pipelines.core/Runtime/Sampling
+  - Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Input
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\laura\Desktop\proyecto_2\proyectoFinal
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 890}
+    scrollPos: {x: 0, y: 4170}
     m_SelectedIDs:
-    - m_Data: 53692
+    - m_Data: 54120
     m_LastClickedID:
-      m_Data: 53692
+      m_Data: 54120
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 53472
@@ -1810,6 +1814,7 @@ MonoBehaviour:
     - m_Data: 53528
     - m_Data: 53530
     - m_Data: 53532
+    - m_Data: 53654
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -2024,7 +2029,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 176
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
