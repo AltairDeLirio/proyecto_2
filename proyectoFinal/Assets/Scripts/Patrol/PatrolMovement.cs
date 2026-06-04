@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PatrolMovement : MonoBehaviour
 {
     [Header("Movimiento guardia")]
     [SerializeField] float velocity = 2f;
     [SerializeField] float velocidadCarrera = 5f;
-    [SerializeField] float vel_rotation = 3f; // Reducido para rotación más suave
     
     public Transform objective;
 
@@ -23,7 +23,7 @@ public class PatrolMovement : MonoBehaviour
 
     float tiempoInicio = 0f;
     bool detected = false;
-    Vector3 direccionMovimiento;
+    bool gameOverActive = false;
 
     void Start()
     {
@@ -46,14 +46,15 @@ public class PatrolMovement : MonoBehaviour
             guardianEyes = this.transform;
         }
 
-        direccionMovimiento = transform.forward;
+        if (panelGameOver != null)
+            panelGameOver.SetActive(false);
     }
 
     void Update()
     {
         if (player == null || guardianEyes == null) return;
+        if (gameOverActive) return;
 
-        // DETECCIÓN
         Vector3 playerVector = player.position - guardianEyes.position;
         float distanciaAlJugador = playerVector.magnitude;
         float angulo = Vector3.Angle(playerVector.normalized, guardianEyes.forward);
@@ -67,58 +68,67 @@ public class PatrolMovement : MonoBehaviour
             detected = false;
         }
 
-        // DECIDIR OBJETIVO Y VELOCIDAD
-        Transform objetivoActual = objective;
         float velocidadActual = velocity;
 
         if (detected)
         {
             velocidadActual = velocidadCarrera;
-            objetivoActual = player;
-
-            // VERIFICAR ATRAPADO
-            if (Time.time > tiempoInicio + 1f && distanciaAlJugador <= distanciaAtrapar)
+            
+            Vector3 direccionAlJugador = player.position - transform.position;
+            direccionAlJugador.y = 0; 
+            
+            if (direccionAlJugador.magnitude > 0.1f)
             {
-                EjecutarGameOver();
-                return;
+                direccionAlJugador.Normalize();
+                transform.position += direccionAlJugador * velocidadActual * Time.deltaTime;
+            }
+        }
+        else
+        {
+            if (objective != null)
+            {
+                Vector3 direccionWaypoint = objective.position - transform.position;
+                direccionWaypoint.y = 0;
+                
+                if (direccionWaypoint.magnitude > 0.1f)
+                {
+                    direccionWaypoint.Normalize();
+                    transform.position += direccionWaypoint * velocity * Time.deltaTime;
+                }
             }
         }
 
-        // MOVIMIENTO Y ROTACIÓN SUAVE
-        if (objetivoActual != null)
+        //verificar
+        if (Time.time > tiempoInicio + 1f && Vector3.Distance(transform.position, player.position) <= distanciaAtrapar)
         {
-            // Calcular dirección hacia el objetivo
-            Vector3 direccionObjetivo = objetivoActual.position - transform.position;
-            direccionObjetivo.y = 0; // Mantener horizontal
-            
-            if (direccionObjetivo.magnitude > 0.1f)
-            {
-                direccionMovimiento = direccionObjetivo.normalized;
-            }
-            
-            // Rotación SUAVE hacia la dirección de movimiento (no instantánea)
-            if (direccionMovimiento != Vector3.zero)
-            {
-                Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionMovimiento);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotacionObjetivo, Time.deltaTime * vel_rotation);
-            }
-            
-            // Movimiento hacia adelante
-            transform.Translate(Vector3.forward * Time.deltaTime * velocidadActual);
+            EjecutarGameOver();
         }
     }
 
     void EjecutarGameOver()
     {
-        Debug.Log("El guardia ha atrapado al personaje.");
+        if (gameOverActive) return;
+        gameOverActive = true;
+        
+        Debug.Log("el jugador ha sido atrapado");
 
         if (panelGameOver != null)
         {
             panelGameOver.SetActive(true); 
-            Time.timeScale = 0f;          
+            //Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+        else
+        {
+            Debug.LogError("Panel Game Over no asignado en el inspector");
+        }
+    }
+
+    public void ReiniciarJuego()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     void OnDrawGizmos()

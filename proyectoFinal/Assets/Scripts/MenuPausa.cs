@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class MenuPausa : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class MenuPausa : MonoBehaviour
         {
             jugadorController = jugadorMovement.GetComponent<CharacterController>();
             
-            // se craga la partida desde el menu principal? se reposiciona al jugador
+            // se carga la partida desde el menu principal? se reposiciona al jugador
             if (SaveManager.Instancia != null && SaveManager.Instancia.ExistePartidaGuardada())
             {
                 PlayerData datos = SaveManager.Instancia.CargarJuego();
@@ -40,6 +41,10 @@ public class MenuPausa : MonoBehaviour
                 }
             }
         }
+        
+        // asegurar que el menú empiece desactivado
+        if (objetoMenuPausa != null)
+            objetoMenuPausa.SetActive(false);
     }
 
     void Update()
@@ -50,8 +55,10 @@ public class MenuPausa : MonoBehaviour
             tiempoTranscurrido += Time.deltaTime;
         }
 
+        // Presionar ESC para pausar/reanudar
         if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
+            Debug.Log("ESC presionado - Juego pausado: " + juegoPausado);
             if (juegoPausado)
                 Reanudar();
             else
@@ -64,6 +71,8 @@ public class MenuPausa : MonoBehaviour
         objetoMenuPausa.SetActive(false);
         Time.timeScale = 1f; 
         juegoPausado = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Pausar()
@@ -71,6 +80,8 @@ public class MenuPausa : MonoBehaviour
         objetoMenuPausa.SetActive(true);
         Time.timeScale = 0f; // congela el juego
         juegoPausado = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     // boton de guardado (vinculado al botón de la ui)
@@ -112,11 +123,24 @@ public class MenuPausa : MonoBehaviour
         }
     }
 
-    //salir del juego
+    // boton de reiniciar juego
+    public void BotonReiniciar()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // boton de volver al menu principal
+    public void BotonVolverMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    // salir del juego
     public void QuitGame()
     {
         Application.Quit();
-        //quit en Unity, para asegurar que funciona
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
