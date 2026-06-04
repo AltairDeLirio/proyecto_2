@@ -1198,6 +1198,14 @@ MonoBehaviour:
     m_Localized: '???: No entiendo como hay gente que no entiende la puta vibra'
     m_Metadata:
       m_Items: []
+  - m_Id: 5843674165231616
+    m_Localized: 'Volumen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5845028816371712
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
