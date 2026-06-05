@@ -3636,6 +3636,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VolumenSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 8730734633194924032, guid: 228558fb24bf17446bfa217bfab454f9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895347954016588675, guid: 228558fb24bf17446bfa217bfab454f9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
