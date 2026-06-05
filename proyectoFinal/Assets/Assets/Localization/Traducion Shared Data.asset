@@ -1449,6 +1449,10 @@ MonoBehaviour:
     m_Key: rein
     m_Metadata:
       m_Items: []
+  - m_Id: 6132898026307584
+    m_Key: lang
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
