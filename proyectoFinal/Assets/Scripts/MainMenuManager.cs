@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class MainMenuManager : MonoBehaviour
 {
     [Header("Configuración de Botones")]
@@ -8,8 +8,8 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Ventana Flotante de Confirmación (UI)")]
     public GameObject panelConfirmacion; // el objeto del cuadro pop up
-    public Text textoFecha;              // texto de la interfaz para la fecha
-    public Text textoTiempo;             // texto de la interfaz para el tiempo de juego
+    public TextMeshProUGUI textoFecha;              // texto de la interfaz para la fecha
+    public TextMeshProUGUI textoTiempo;             // texto de la interfaz para el tiempo de juego
 
     void Start()
     {
