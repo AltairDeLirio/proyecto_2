@@ -24,6 +24,8 @@ public class PatrolMovement : MonoBehaviour
     float tiempoInicio = 0f;
     bool detected = false;
     bool gameOverActive = false;
+    
+    private bool movimientoActivado = true; // ← NUEVO
 
     void Start()
     {
@@ -49,9 +51,16 @@ public class PatrolMovement : MonoBehaviour
         if (panelGameOver != null)
             panelGameOver.SetActive(false);
     }
+    
+    public void SetGuardMovement(bool canMove) //
+    {
+        movimientoActivado = canMove;
+    }
 
     void Update()
     {
+        if (!movimientoActivado) return; // 
+        
         if (player == null || guardianEyes == null) return;
         if (gameOverActive) return;
 
