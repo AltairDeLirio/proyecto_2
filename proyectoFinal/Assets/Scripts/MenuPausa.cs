@@ -83,41 +83,73 @@ public class MenuPausa : MonoBehaviour
 
     public void BotonGuardar()
     {
-        if (jugadorMovement != null)
+        if (jugadorMovement == null)
+    {
+        jugadorMovement = FindFirstObjectByType<PlayerMovement>();
+        if (jugadorMovement == null)
         {
-            int nivelActual = 1;
-            float saludActual = 100f;
-            Vector3 posicionReal = jugadorMovement.transform.position;
-
-            int horas = Mathf.FloorToInt(tiempoTranscurrido / 3600f);
-            int minutos = Mathf.FloorToInt((tiempoTranscurrido % 3600f) / 60f);
-            int segundos = Mathf.FloorToInt(tiempoTranscurrido % 60f);
-            string tiempoDeJuegoReal = string.Format("{0:00}h {1:00}m {2:00}s", horas, minutos, segundos);
-
-            SaveManager.Instancia.GuardarJuego(nivelActual, saludActual, posicionReal, tiempoDeJuegoReal);
-            Debug.Log("Partida guardada. Tiempo registrado: " + tiempoDeJuegoReal);
+            Debug.LogError("No se encuentra el PlayerMovement");
+            return;
         }
+        jugadorController = jugadorMovement.GetComponent<CharacterController>();
+    }
+         // Buscar el jugador si es null
+        if (jugadorMovement == null)
+        {
+            jugadorMovement = FindFirstObjectByType<PlayerMovement>();
+            if (jugadorMovement == null)
+            {
+                Debug.LogError("No se encuentra el PlayerMovement");
+                return;
+            }
+            jugadorController = jugadorMovement.GetComponent<CharacterController>();
+        }
+    
+    PlayerData datos = SaveManager.Instancia.CargarJuego();
+
+    if (datos != null && jugadorMovement != null && jugadorController != null)
+    {
+        Reanudar();
+        Vector3 posicionCargada = new Vector3(datos.posicion[0], datos.posicion[1], datos.posicion[2]);
+        jugadorController.enabled = false;
+        jugadorMovement.transform.position = posicionCargada;
+        jugadorController.enabled = true;
+        Debug.Log("Partida cargada desde el menú de pausa");
+    }
     }
 
     public void BotonCargar()
     {
-        PlayerData datos = SaveManager.Instancia.CargarJuego();
-
-        if (datos != null && jugadorMovement != null && jugadorController != null)
+       // Buscar el jugador si es null
+    if (jugadorMovement == null)
+    {
+        jugadorMovement = FindFirstObjectByType<PlayerMovement>();
+        if (jugadorMovement == null)
         {
-            Reanudar();
-            Vector3 posicionCargada = new Vector3(datos.posicion[0], datos.posicion[1], datos.posicion[2]);
-            jugadorController.enabled = false;
-            jugadorMovement.transform.position = posicionCargada;
-            jugadorController.enabled = true;
-            Debug.Log("Partida cargada desde el menú de pausa");
+            Debug.LogError("No se encuentra el PlayerMovement");
+            return;
         }
+        jugadorController = jugadorMovement.GetComponent<CharacterController>();
+    }
+    
+    PlayerData datos = SaveManager.Instancia.CargarJuego();
+
+    if (datos != null && jugadorMovement != null && jugadorController != null)
+    {
+        Reanudar();
+        Vector3 posicionCargada = new Vector3(datos.posicion[0], datos.posicion[1], datos.posicion[2]);
+        jugadorController.enabled = false;
+        jugadorMovement.transform.position = posicionCargada;
+        jugadorController.enabled = true;
+        Debug.Log("Partida cargada desde el menú de pausa");
+    }
     }
 
     public void BotonReiniciar()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
 
     public void BotonVolverMenu()
