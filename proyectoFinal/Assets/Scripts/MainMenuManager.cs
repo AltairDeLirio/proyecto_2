@@ -38,13 +38,11 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        // === TRUCO MAESTRO: Apagamos el menú para que no tape PlantaUno ===
         GameObject menuVisual = GameObject.Find("UI_menu");
         if (menuVisual != null)
         {
             menuVisual.SetActive(false);
         }
-        // =================================================================
 
         if (SceneLoader.Instance != null)
         {
